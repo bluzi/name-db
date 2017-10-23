@@ -19,5 +19,12 @@
         "translations": {
             "lat": "Aemilia"
         }
+    },
+    {
+        "name": "Mei",
+        "meaning": "chinese for \"Plum\"",
+        "translations": {
+            "chi": "中文"
+        }
     }
 ]
