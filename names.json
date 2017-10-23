@@ -26,5 +26,12 @@
         "translations": {
             "gle": "Ó Ceallaigh"
         }
+    },
+    {
+        "name": "Mei",
+        "meaning": "chinese for \"Plum\"",
+        "translations": {
+            "chi": "中文"
+        }
     }
 ]
