@@ -1,5 +1,4 @@
-[
-    {
+[{
         "name": "Eliran",
         "meaning": "Hebrew for \"God is pleased\"",
         "translations": {
@@ -11,6 +10,13 @@
         "meaning": "Persian for \"Treasurer\"",
         "translations": {
             "per": "یشم"
+        }
+    },
+    {
+        "name": "Paras",
+        "meaning": "Hindi for \"Touchstone\"",
+        "translations": {
+            "hin": "पारस"
         }
     }
 ]
