@@ -19,5 +19,12 @@
         "translations": {
             "lat": "Aemilia"
         }
+    },
+    {
+        "name": "Kelly",
+        "meaning": "Irish for \"fighter\"",
+        "translations": {
+            "gle": "Ó Ceallaigh"
+        }
     }
 ]
