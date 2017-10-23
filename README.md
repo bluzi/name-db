@@ -15,7 +15,8 @@
 }
 ``` 
 
-The language codes are [ISO 639-3](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) codes.
+The language codes are [ISO 639-3](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) codes. For a list of lanauge codes, please see: https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes
+
 Note that everything except the translations should be in English.
 
 # Contribution (Easy PR, large impact!)
