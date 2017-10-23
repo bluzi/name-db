@@ -1,0 +1,19 @@
+{
+  "name": "name-db",
+  "version": "1.0.0",
+  "description": "name-db is a collection of names in all languages. Our goal is to collect as much data as we can, and to provide an open-source free API for name translations.",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluzi/name-db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bluzi/name-db/issues"
+  },
+  "homepage": "https://github.com/bluzi/name-db#readme",
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}
