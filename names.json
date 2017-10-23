@@ -5,5 +5,12 @@
         "translations": {
             "heb": "אלירן"
         }
+    },
+    {
+        "name": "Jasper",
+        "meaning": "Persian for \"Treasurer\"",
+        "translations": {
+            "per": "یشم"
+        }
     }
 ]
