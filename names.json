@@ -76,6 +76,12 @@
         "translations": {
             "chi": "中文"
         }
+    },
+    {
+        "name": "Awwal",
+        "meaning" : "Arabic for \"First\"",
+        "translations": {
+            "ar": "أَوَّل"
     }
     {
         "name": "Josef",
