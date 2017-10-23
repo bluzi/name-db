@@ -1,5 +1,5 @@
 ## name-db
-*name-db* is a collection of names in all languages. Our goal is to provide a name translation API.
+*name-db* is a collection of names in all languages. Our goal is to collect as much data as we can, and to provide an open-source free API for name translations.
 
 # Specs
 *name-db* currently stores only **first names**, in a *UTF-8* JSON format.
