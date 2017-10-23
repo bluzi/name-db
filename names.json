@@ -26,5 +26,12 @@
         "translations": {
             "chi": "中文"
         }
+    },
+    {
+        "name": "Irma",
+        "meaning": "German for \"Universal\"",
+        "translations": {
+            "ger": "Vorname"
+        }
     }
 ]
