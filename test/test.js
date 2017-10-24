@@ -21,6 +21,18 @@ describe('names.json', function () {
         });
     });
 
+    it('should not have duplicate names', function (done) {
+         fs.readFile("./names.json", function (err, text) {
+             if (err) done(err);
+             var json = JSON.parse(text);
+             var names = json.map((name) => {return name["name"]})
+             var isDuplicate = (new Set(names).size !== names.length)
+
+             assert.equal(isDuplicate, false);
+             done();
+         });
+     });
+
     describe('schema specifications', function () {
         it('should have correct structure', function (done) {
             var v = new Validator();
