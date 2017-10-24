@@ -491,4 +491,19 @@
             "ghc": "Donnchadh"
         }
     }
+    {
+        "name": "Julia"
+        "meaning": "Latin for \"downy-bearded or youth."\""
+        "translations": {
+            "fra": "Jules"
+            "ita": "Giulio"
+            "pol": "Julek"
+            "por": "Júlio"
+            "ron": "Iuliu"
+            "rus": "Yuliy"
+            "slk": "Július"
+            "slv": "Julij"
+            "spa": "Julio"
+        }
+    }
 ]
