@@ -65,7 +65,8 @@
             "jpn": "ダニエル",
             "lit": "Danielis",
             "rus": "Дании́л",
-            "hin": "डेन्यल"
+            "hin": "डेन्यल",
+            "por": "Daniel"
         }
     },
     {
@@ -76,7 +77,8 @@
             "fra": "André",
             "grk": "Ανδρέας",
             "spa": "André",
-            "hin": "एंडी"
+            "hin": "एंडी",
+            "por": "André"
         }
     },
     {
@@ -108,7 +110,8 @@
             "jpn":"エミリー",
             "lat": "Aemilia",
             "slv": "Emilija",
-            "heb": "אמילי"
+            "heb": "אמילי",
+            "por": "Emilia"
         }
     },
     {
@@ -146,7 +149,8 @@
             "jpn":"ジョセフ",
             "slv": "Jožef",
             "heb": "יוסף",
-            "arb": "جوزف"
+            "arb": "جوزف",
+            "por": "José"
         }
     },
     {
@@ -210,7 +214,8 @@
         "name": "Michelle",
         "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
         "translations": {
-            "spa": "Micaela"
+            "spa": "Micaela",
+            "por": "Michele"
         }
     },
     {
@@ -241,7 +246,8 @@
     	"translations": {
     		"fin": "Kaapo",
     		"rus": "Gavril",
-    		"spa": "Gabian"
+    		"spa": "Gabian",
+        "por": "Gabriel"
     	}
     },
     {
