@@ -1,5 +1,17 @@
 [
     {
+        "name": "Vrunda",
+        "meaning": "Hebrew for \"Basil\"",
+        "translations": {
+            "ara":"فريندا",
+            "zho":"罗勒",
+            "ces":"Bazalka",
+            "guj":"વૃંદા",
+            "hin":"वृंदा",
+            "nep":"वृंदा"
+        }
+    },
+    {
         "name": "Adam",
         "meaning": "Hebrew for \"The ground or earth\"",
         "translations": {
@@ -30,6 +42,7 @@
             "rus":"Адам",
             "srp":"Adam",
             "gla":"Adhamh",
+            "slv":"Adam",
             "som":"Aden",
             "spa":"Adán",
             "swa":"Adamu",
@@ -43,51 +56,89 @@
         }
     },
     {
+        "name": "Daniel",
+        "meaning": "Masculine form. Hewbrew for \"God is my Judge\". Derived from the bibical figures of Daniel.",
+        "translations": {
+            "ara": "دَانْيَال",
+            "heb": "דָּנִיֵּאל",
+            "ita": "Daniele",
+            "jpn": "ダニエル",
+            "lit": "Danielis",
+            "rus": "Дании́л"
+        }
+    },
+    {
+        "name": "Andy",
+        "meaning": "Greek for \"Manly or brave\"",
+        "translations": {
+            "eng": "Andrew",
+            "grk": "Ανδρέας",
+            "spa": "André"
+        }
+    },
+    {
         "name": "Eliran",
         "meaning": "Hebrew for \"God is pleased\"",
         "translations": {
-            "heb": "אלירן"
+            "heb": "אלירן",
+            "jpn":"エリーラン"
+
         }
     },
     {
         "name": "Jasper",
         "meaning": "Persian for \"Treasurer\"",
         "translations": {
-            "per": "یشم"
+            "jpn":"ジャスパー",
+            "per": "یشم",
+            "slv": "Jasper",
+            "heb": "קספר"
         }
     },
     {
         "name": "Emily",
         "meaning": "Latin for \"rival\"",
         "translations": {
-            "lat": "Aemilia"
+            "jpn":"エミリー",
+            "lat": "Aemilia",
+            "slv": "Emilija",
+            "heb": "אמילי"
         }
     },
     {
         "name": "Kelly",
         "meaning": "Irish for \"fighter\"",
         "translations": {
-            "gle": "Ó Ceallaigh"
+            "gle": "Ó Ceallaigh",
+            "jpn":"ケリー",
+            "heb": "קלי"
         }
     },
     {
         "name": "Mei",
         "meaning": "chinese for \"Plum\"",
         "translations": {
-            "chi": "中文"
+            "chi": "中文",
+            "jpn":"メイ",
+            "heb": "מיי"
         }
     },
     {
         "name": "Awwal",
         "meaning" : "Arabic for \"First\"",
         "translations": {
-            "ar": "أَوَّل"
-    }
+            "jpn":"アッワル",
+            "arb": "أَوَّل"
+        }
+    },
     {
         "name": "Josef",
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
-            "ces": "Josef"
+            "ces": "Josef",
+            "jpn":"ジョセフ",
+            "slv": "Jožef",
+            "heb": "יוסף"
         }
     },
     {
@@ -95,9 +146,37 @@
         "meaning": "Hebrew for \"son of the south\" or \"son of the right hand\"",
         "translations": {
             "heb": "בנג'מין",
-            "es": "Benjamín",
-            "fr": "benjoin",
+            "fra": "benjoin",
             "rus": "Бенджамен"
         }
+    },
+    {
+        "name": "Roshan",
+        "meaning": "Hindi for \"Light\" ",
+        "translations": {
+          "hin": "रोशन"
+        }
+    },
+    {
+        "name": "Patrick",
+        "meaning": "Irish for \"Noble\"",
+        "translations": {
+            "lat": "Patricius",
+            "spa": "Patricio"
+        }
+    },
+    {
+        "name": "Michelle",
+        "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
+        "translations": {
+            "spa": "Micaela"
+        }      
+    },
+    {
+        "name": "Matan",
+        "meaning": "Hewbrew for \"A present\"",
+        "translations": {
+            "heb": "מתן"
+        }      
     }
 ]
