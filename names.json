@@ -30,6 +30,7 @@
             "rus":"Адам",
             "srp":"Adam",
             "gla":"Adhamh",
+            "slv":"Adam",
             "som":"Aden",
             "spa":"Adán",
             "swa":"Adamu",
@@ -56,7 +57,8 @@
         "meaning": "Persian for \"Treasurer\"",
         "translations": {
             "jpn":"ジャスパー",
-            "per": "یشم"
+            "per": "یشم",
+            "slv": "Jasper"
         }
     },
     {
@@ -64,7 +66,8 @@
         "meaning": "Latin for \"rival\"",
         "translations": {
             "jpn":"エミリー",
-            "lat": "Aemilia"
+            "lat": "Aemilia",
+            "slv": "Emilija"
             
         }
     },
@@ -88,8 +91,8 @@
         "name": "Awwal",
         "meaning" : "Arabic for \"First\"",
         "translations": {
-            "arb": "أَوَّل",
-            "jpn":"アッワル"
+            "jpn":"アッワル",
+            "arb": "أَوَّل"
         }
     },
     {
@@ -97,7 +100,8 @@
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
             "ces": "Josef",
-            "jpn":"ジョセフ"
+            "jpn":"ジョセフ",
+            "slv": "Jožef"
         }
     },
     {
