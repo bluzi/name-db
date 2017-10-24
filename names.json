@@ -340,5 +340,11 @@
         "spa": "Julio",
          "deu": "Julius"
       }
-    }
-]
+    },
+    {
+        "name": "Vishwas",
+        "meaning": "Hindi for \"Trust\"",
+        "translations": {
+            "hin": "विश्वास"
+        }
+    }]
