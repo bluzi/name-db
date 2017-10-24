@@ -355,5 +355,19 @@
         "deu": "Moritz",
         "ita": "Maurizio"
     }
-}
+},
+    {
+        "name": "Sergey",
+        "meaning": "derived from latin Sergei, which meant \"Attendant. Also a: Protector; shepherd\",
+        "translations": {
+            "rus": "Сергей",
+            "ukr": "Сергій",
+            "fra": "Serge",
+            "ita": "Sergio",
+            "spa": "Sergio",
+            "grk": "Σέργιος",
+            "rom": "Sergiu",
+            "cro": "Срђан" 
+        }
+    }
 ]
