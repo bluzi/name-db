@@ -82,12 +82,20 @@
         "meaning" : "Arabic for \"First\"",
         "translations": {
             "ar": "أَوَّل"
-    }
+        }
+    },
     {
         "name": "Josef",
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
             "ces": "Josef"
         }
+    },
+    {
+        "name": "Michelle",
+        "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
+        "translations": {
+            "spa": "Micaela"
+        }      
     }
 ]
