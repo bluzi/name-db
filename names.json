@@ -9,7 +9,7 @@
             "guj": "વૃંદા",
             "hin": "वृंदा",
             "nep": "वृंदा",
-            "kan":"ವೃಂದಾ",
+            "kan": "ವೃಂದಾ",
             "pol": "Bazylia"
         }
     },
@@ -73,7 +73,7 @@
             "hin": "डेन्यल",
             "por": "Daniel",
             "deu": "Daniel",
-            "kan":"ಡೇನಿಯಲ್",
+            "kan": "ಡೇನಿಯಲ್",
             "pol": "Adam"
         }
     },
@@ -87,7 +87,7 @@
             "hin": "एंडी",
             "por": "André",
             "deu": "Anreas",
-            "kan":"ಆಂಡಿ",
+            "kan": "ಆಂಡಿ",
             "pol": "Andrzej"
         }
     },
@@ -97,7 +97,7 @@
         "translations": {
             "heb": "אלירן",
             "jpn": "エリーラン",
-            "kan":"ಎಲಿರಾನ್"
+            "kan": "ಎಲಿರಾನ್"
         }
     },
     {
@@ -135,7 +135,7 @@
             "gle": "Ó Ceallaigh",
             "jpn": "ケリー",
             "heb": "קלי",
-            "kan":"ಕೆಲ್ಲಿ"
+            "kan": "ಕೆಲ್ಲಿ"
         }
     },
     {
@@ -160,7 +160,7 @@
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
             "fra": "José",
-            "hye": "Հովսեփ", 
+            "hye": "Հովսեփ",
             "ces": "Josef",
             "jpn": "ジョセフ",
             "slv": "Jožef",
@@ -476,6 +476,13 @@
         "meaning": "derived form of the name of the Roman god Mars",
         "transaltions": {
             "pol": "Marcin"
+        }
+    },
+    {
+        "name": "Duncan",
+        "meaning": "Dark warrior",
+        "translations": {
+            "ghc": "Donnchadh"
         }
     }
 ]
