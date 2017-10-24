@@ -43,6 +43,13 @@
         }
     },
     {
+        "name": "Awwal",
+        "meaning" : "Arabic for \"First\"",
+        "translations": {
+            "ar": "أَوَّل"
+    }
+    },
+    {
         "name": "Eliran",
         "meaning": "Hebrew for \"God is pleased\"",
         "translations": {
@@ -50,17 +57,28 @@
         }
     },
     {
+        "name": "Emily",
+        "meaning": "Latin for \"rival\"",
+        "translations": {
+            "lat": "Aemilia"
+        }
+    },
+    {
+        "name": "Ian",
+        "meaning":  "Scottish for \"God is gracious\"",  
+    },
+    {
         "name": "Jasper",
         "meaning": "Persian for \"Treasurer\"",
         "translations": {
             "per": "یشم"
         }
-    },
+    }, 
     {
-        "name": "Emily",
-        "meaning": "Latin for \"rival\"",
+        "name": "Josef",
+        "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
-            "lat": "Aemilia"
+            "ces": "Josef"
         }
     },
     {
@@ -75,19 +93,6 @@
         "meaning": "chinese for \"Plum\"",
         "translations": {
             "chi": "中文"
-        }
-    },
-    {
-        "name": "Awwal",
-        "meaning" : "Arabic for \"First\"",
-        "translations": {
-            "ar": "أَوَّل"
-    }
-    {
-        "name": "Josef",
-        "meaning": "Hebrew for \"He will enlarge, God will increase\"",
-        "translations": {
-            "ces": "Josef"
         }
     }
 ]
