@@ -52,7 +52,8 @@
             "ukr":"Адам",
             "uzb":"Odam",
             "vie":"ÁĐàm",
-            "yid":"Adi"
+            "yid":"Adi",
+            "deu":"Adam"
         }
     },
     {
@@ -66,7 +67,8 @@
             "lit": "Danielis",
             "rus": "Дании́л",
             "hin": "डेन्यल",
-            "por": "Daniel"
+            "por": "Daniel",
+            "deu": "Daniel"
         }
     },
     {
@@ -77,7 +79,8 @@
             "grk": "Ανδρέας",
             "spa": "André",
             "hin": "एंडी",
-            "por": "André"
+            "por": "André",
+            "deu":"Anreas"
         }
     },
     {
@@ -149,7 +152,8 @@
             "slv": "Jožef",
             "heb": "יוסף",
             "arb": "جوزف",
-            "por": "José"
+            "por": "José",
+            "deu": "Josef"
         }
     },
     {
@@ -161,7 +165,8 @@
             "ita": "Ginevra",
             "kor": "제니퍼",
             "wlm": "Gwenhwyfar",
-            "hin": "जेनिफर"
+            "hin": "जेनिफर",
+            "deu": "Jennifer"
         }
     },
     {
@@ -169,7 +174,8 @@
         "meaning": "Hebrew for \"son of the south\" or \"son of the right hand\"",
         "translations": {
             "heb": "בנג'מין",
-            "rus": "Бенджамен"
+            "rus": "Бенджамен",
+            "deu": "Benjamin"
         }
     },
     {
@@ -206,7 +212,8 @@
         "translations": {
             "fra": "Patrice",
             "lat": "Patricius",
-            "spa": "Patricio"
+            "spa": "Patricio",
+            "deu": "Patrick"
         }
     },
     {
@@ -214,7 +221,8 @@
         "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
         "translations": {
             "spa": "Micaela",
-            "por": "Michele"
+            "por": "Michele",
+            "deu": "Michael"
         }
     },
     {
@@ -229,7 +237,8 @@
         "name": "Ian",
         "meaning":  "Scottish for \"God is gracious\"",
         "translations": {
-            "fra": "Yan"
+            "fra": "Yan",
+            "deu": "Jan"
         }
     },
     {
@@ -246,7 +255,8 @@
     		"fin": "Kaapo",
     		"rus": "Gavril",
     		"spa": "Gabian",
-        "por": "Gabriel"
+            "por": "Gabriel",
+            "deu": "Gabriel"
     	}
     },
     {
@@ -271,20 +281,23 @@
         "name": "Dave",
         "meaning": "Beloved or friend, adopted from Hebrew",
         "translations": {
-            "afr": "Dawid"
+            "afr": "Dawid",
+            "deu": "David"
         }
     },
     {
         "name": "Max",
         "meaning": "Short for Maximilian. Which is derived from Maximus that in latin means \"the greatest\"",
         "translations": {
-            "swe": "Max"
+            "swe": "Max",
+            "deu": "Max"
         }
     },
     {
         "name": "Wagner",
         "meaning": "German (also Wägner) and Jewish (Ashkenazic): occupational name for a carter or cartwright, from an agent derivative of Middle High German wagen \"cart\", \"wagon\", German Wagen",
         "translations": {
+            "deu": "Wagner"
         }
     },
     {
@@ -297,6 +310,7 @@
         "name": "Juliana",
         "meaning": "Feminine of Julius, Latin for \"youthful\"",
         "translations": {
+            "deu": "Julia"
         }
     },
     {
@@ -304,7 +318,8 @@
       "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
       "translations": {
         "rus": "Марк",
-        "spa": "Marcos"
+        "spa": "Marcos",
+         "deu": "Mark"
       }
     },
     {
@@ -319,7 +334,30 @@
         "rus": "Yuliy",
         "slk": "Július",
         "slv": "Julij",
-        "spa": "Julio"
+        "spa": "Julio",
+         "deu": "Julius"
       }
+    },
+    {
+        "name": "Vishwas",
+        "meaning": "Hindi for \"Trust\"",
+        "translations": {
+            "hin": "विश्वास"
+        }
+    },
+    {
+    "name": "Maurice",
+    "meaning": "Man from Mauritania",
+    "translations": {
+        "deu": "Moritz",
+        "ita": "Maurizio"
+    }
+},
+    {
+        "name": "Rajesh",
+        "meaning": "God of kings",
+        "translations": {
+            "hin": "राजेश"
+        }
     }
 ]
