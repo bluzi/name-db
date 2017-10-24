@@ -234,5 +234,13 @@
         "translations": {
             "hin": "पारस"
         }
+    },
+    {
+        "name": "Blake",
+        "meaning": "Strong or bold",
+        "translations": {
+            "per": "بلیک",
+            "jpn": "ブレイク"
+        }
     }
 ]
