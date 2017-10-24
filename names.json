@@ -3,59 +3,57 @@
         "name": "Vrunda",
         "meaning": "Hebrew for \"Basil\"",
         "translations": {
-            "ara": "فريندا",
-            "zho": "罗勒",
-            "ces": "Bazalka",
-            "guj": "વૃંદા",
-            "hin": "वृंदा",
-            "nep": "वृंदा",
-            "kan":"ವೃಂದಾ"
+            "ara":"فريندا",
+            "zho":"罗勒",
+            "ces":"Bazalka",
+            "guj":"વૃંદા",
+            "hin":"वृंदा",
+            "nep":"वृंदा"
         }
     },
     {
         "name": "Adam",
         "meaning": "Hebrew for \"The ground or earth\"",
         "translations": {
-            "ara": "آدم",
-            "hye": "Ադամ",
-            "bel": "Адам",
-            "ben": "আদম",
-            "bul": "Адам",
-            "zho": "亚当",
-            "ces": "Adam",
-            "ell": "Αδάμ",
-            "guj": "આદમ",
-            "heb": "אדם",
-            "hin": "आदम",
-            "hun": "Ádám",
-            "ita": "Adamo",
-            "jpn": "アダム",
-            "kan": "ಆಡಮ್",
-            "kor": "아담",
-            "lao": "ອາດາມ",
-            "lat": "Adamus",
-            "lit": "Adomas",
-            "mri": "Arama",
-            "mon": "Адам",
-            "nep": "आदम",
-            "pol": "Adam",
-            "por": "Adão",
-            "rus": "Адам",
-            "srp": "Adam",
-            "gla": "Adhamh",
-            "slv": "Adam",
-            "som": "Aden",
-            "spa": "Adán",
-            "swa": "Adamu",
-            "tam": "ஆதாம்",
-            "tha": "อาดัม",
-            "tur": "Adem",
-            "ukr": "Адам",
-            "uzb": "Odam",
-            "vie": "ÁĐàm",
-            "yid": "Adi",
-            "deu": "Adam",
-            "kan": "ಆಡಮ್"
+            "ara":"آدم",
+            "hye":"Ադամ",
+            "bel":"Адам",
+            "ben":"আদম",
+            "bul":"Адам",
+            "zho":"亚当",
+            "ces":"Adam",
+            "ell":"Αδάμ",
+            "guj":"આદમ",
+            "heb":"אדם",
+            "hin":"आदम",
+            "hun":"Ádám",
+            "ita":"Adamo",
+            "jpn":"アダム",
+            "kan":"ಆಡಮ್",
+            "kor":"아담",
+            "lao":"ອາດາມ",
+            "lat":"Adamus",
+            "lit":"Adomas",
+            "mri":"Arama",
+            "mon":"Адам",
+            "nep":"आदम",
+            "pol":"Adam",
+            "por":"Adão",
+            "rus":"Адам",
+            "srp":"Adam",
+            "gla":"Adhamh",
+            "slv":"Adam",
+            "som":"Aden",
+            "spa":"Adán",
+            "swa":"Adamu",
+            "tam":"ஆதாம்",
+            "tha":"อาดัม",
+            "tur":"Adem",
+            "ukr":"Адам",
+            "uzb":"Odam",
+            "vie":"ÁĐàm",
+            "yid":"Adi",
+            "deu":"Adam"
         }
     },
     {
@@ -71,8 +69,7 @@
             "rus": "Дании́л",
             "hin": "डेन्यल",
             "por": "Daniel",
-            "deu": "Daniel",
-            "kan":"ಡೇನಿಯಲ್"
+            "deu": "Daniel"
         }
     },
     {
@@ -84,8 +81,7 @@
             "spa": "André",
             "hin": "एंडी",
             "por": "André",
-            "deu": "Anreas",
-            "kan":"ಆಂಡಿ"
+            "deu":"Anreas"
         }
     },
     {
@@ -93,8 +89,8 @@
         "meaning": "Hebrew for \"God is pleased\"",
         "translations": {
             "heb": "אלירן",
-            "jpn": "エリーラン",
-            "kan":"ಎಲಿರಾನ್"
+            "jpn":"エリーラン"
+
         }
     },
     {
@@ -102,12 +98,11 @@
         "meaning": "Persian for \"Treasurer\"",
         "translations": {
             "fra": "Gaspard",
-            "jpn": "ジャスパー",
+            "jpn":"ジャスパー",
             "per": "یشم",
             "slv": "Jasper",
             "heb": "קספר",
-            "hin": "जैस्पर",
-            "kan": "ಜಾಸ್ಪರ್"
+            "hin": "जैस्पर"
         }
     },
     {
@@ -115,12 +110,11 @@
         "meaning": "Latin for \"rival\"",
         "translations": {
             "fra": "Émilie",
-            "jpn": "エミリー",
+            "jpn":"エミリー",
             "lat": "Aemilia",
             "slv": "Emilija",
             "heb": "אמילי",
-            "por": "Emilia",
-            "kan": "ಎಮಿಲಿ"
+            "por": "Emilia"
         }
     },
     {
@@ -128,9 +122,8 @@
         "meaning": "Irish for \"fighter\"",
         "translations": {
             "gle": "Ó Ceallaigh",
-            "jpn": "ケリー",
-            "heb": "קלי",
-            "kan":"ಕೆಲ್ಲಿ"
+            "jpn":"ケリー",
+            "heb": "קלי"
         }
     },
     {
@@ -138,15 +131,15 @@
         "meaning": "chinese for \"Plum\"",
         "translations": {
             "chi": "中文",
-            "jpn": "メイ",
+            "jpn":"メイ",
             "heb": "מיי"
         }
     },
     {
         "name": "Awwal",
-        "meaning": "Arabic for \"First\"",
+        "meaning" : "Arabic for \"First\"",
         "translations": {
-            "jpn": "アッワル",
+            "jpn":"アッワル",
             "arb": "أَوَّل"
         }
     },
@@ -156,7 +149,7 @@
         "translations": {
             "fra": "José",
             "ces": "Josef",
-            "jpn": "ジョセフ",
+            "jpn":"ジョセフ",
             "slv": "Jožef",
             "heb": "יוסף",
             "arb": "جوزف",
@@ -184,7 +177,7 @@
             "fra": "Benjamin",
             "deu": "Benjamin",
             "heb": "בנג'מין",
-            "rus": "Бенджамен"
+            "rus": "Бенджамен",
         }
     },
     {
@@ -203,16 +196,16 @@
         "name": "Roshan",
         "meaning": "Hindi for \"Light\" ",
         "translations": {
-            "hin": "रोशन"
+          "hin": "रोशन"
         }
     },
     {
         "name": "Serdar",
         "meaning": "Turkmen for \"Chieftain\"",
         "translations": {
-            "per": "سردار",
-            "tur": "Serdar",
-            "tkm": "Serdar"
+          "per": "سردار",
+          "tur": "Serdar",
+          "tkm": "Serdar"
         }
     },
     {
@@ -245,7 +238,7 @@
     },
     {
         "name": "Ian",
-        "meaning": "Scottish for \"God is gracious\"",
+        "meaning":  "Scottish for \"God is gracious\"",
         "translations": {
             "fra": "Yan",
             "deu": "Jan"
@@ -259,16 +252,16 @@
         }
     },
     {
-        "name": "Gabriel",
-        "meaning": "Hebrew for \"God is my strength\"",
-        "translations": {
+    	"name": "Gabriel",
+    	"meaning": "Hebrew for \"God is my strength\"",
+    	"translations": {
             "fra": "Gabriel",
-            "fin": "Kaapo",
-            "rus": "Gavril",
-            "spa": "Gabian",
+    		"fin": "Kaapo",
+    		"rus": "Gavril",
+    		"spa": "Gabian",
             "por": "Gabriel",
             "deu": "Gabriel"
-        }
+    	}
     },
     {
         "name": "Blake",
@@ -314,7 +307,8 @@
     {
         "name": "Mauro",
         "meaning": "derived from latin Maurus, which meant \"dark skinned\". This was the name of numerous early saints, most notably a follower of Saint Benedict.",
-        "translations": {}
+        "translations": {
+        }
     },
     {
         "name": "Juliana",
@@ -325,30 +319,30 @@
         }
     },
     {
-        "name": "Mark",
-        "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
-        "translations": {
-            "fra": "Marc",
-            "rus": "Марк",
-            "spa": "Marcos",
-            "deu": "Mark"
-        }
+      "name": "Mark",
+      "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
+      "translations": {
+        "fra": "Marc",
+        "rus": "Марк",
+        "spa": "Marcos",
+         "deu": "Mark"
+      }
     },
     {
-        "name": "Julius",
-        "meaning": "Latin for \"downy-bearded or youth\"",
-        "translations": {
-            "fra": "Jules",
-            "ita": "Giulio",
-            "pol": "Julek",
-            "por": "Júlio",
-            "ron": "Iuliu",
-            "rus": "Yuliy",
-            "slk": "Július",
-            "slv": "Julij",
-            "spa": "Julio",
-            "deu": "Julius"
-        }
+      "name": "Julius",
+      "meaning": "Latin for \"downy-bearded or youth\"",
+      "translations": {
+        "fra": "Jules",
+        "ita": "Giulio",
+        "pol": "Julek",
+        "por": "Júlio",
+        "ron": "Iuliu",
+        "rus": "Yuliy",
+        "slk": "Július",
+        "slv": "Julij",
+        "spa": "Julio",
+         "deu": "Julius"
+      }
     },
     {
         "name": "Vishwas",
@@ -358,32 +352,18 @@
         }
     },
     {
-        "name": "Maurice",
-        "meaning": "Man from Mauritania",
-        "translations": {
+    "name": "Maurice",
+    "meaning": "Man from Mauritania",
+    "translations": {
             "fra": "Maurice",
             "deu": "Moritz",
             "ita": "Maurizio"
         }
     },
     {
-        "name": "Sergey",
-        "meaning": "derived from latin Sergei, which meant \"Attendant. Also a Protector, shepherd\"",
-        "translations": {
-            "rus": "Сергей",
-            "ukr": "Сергій",
-            "fra": "Serge",
-            "ita": "Sergio",
-            "spa": "Sergio",
-            "grk": "Σέργιος",
-            "rom": "Sergiu",
-            "cro": "Срђан"
-        }
-    },
-    {
-        "name": "Sophia",
-        "meaning": "Greek for \"wisdom\"",
-        "translations": {
+    "name": "Sophia",
+    "meaning": "Greek for \"wisdom\"",
+    "translations": {
             "fra": "Sofie",
             "deu": "Sofia",
             "pol": "Sophię",
@@ -391,10 +371,10 @@
             "rus": "София"
         }
     },
-    {
-        "name": "Rajesh",
-        "meaning": "God of kings",
-        "translations": {
+    {		
+        "name": "Rajesh",		
+        "meaning": "God of kings",		
+        "translations": {		
             "hin": "राजेश"
         }
     },
@@ -406,46 +386,23 @@
         }
     },
     {
-        "name": "Elad",
-        "meaning": "Hebrew for \"Forever God\"",
+        "name": "Roydon",
+        "meaning": "From a surname which was originally derived from a place name meaning \"rye hill\", from Old English ryge \"rye\" and dun \"hill\"",
         "translations": {
-            "heb": "אלעד",
-            "jpn": "エラード"
-        }
+        },
     },
     {
-        "name": "Clayton",
-        "meaning": "place with good clay",
+        "name": "Diggory",
+        "meaning": "Probably an Anglicized form of Degaré. Sir Degaré was the subject of a medieval poem set in Brittany. The name may mean \"lost one\" from French égaré.",
         "translations": {
-            "spa": "Clayton"
-        }
+        },
     },
     {
-        "name": "Thomas",
-        "meaning": "Hebrew for \"Twin\"",
+        "name": "Freeman",
+        "meaning": "From an English surname meaning \"free man\". It originally denoted a person who was not a serf.",
         "translations": {
-            "gct": "Thomas",
-            "dse": "Thomas",
-            "lat": "Thomas",
-            "fre": "Thomas",
-            "ise": "Tommaso",
-            "spa": "Tomás",
-            "por": "Toma",
-            "rms": "Thomas"
-        }
-    },
-    {
-        "name": "Saurabh",
-        "meaning": "Fragnance",
-        "translations": {
-            "hin": "सौरभ"
-        }
-    },
-    {
-        "name": "Sagar",
-        "meaning": "Ocean",
-        "translations": {
-            "hin": "सागर"
-        }
+        },
     }
+    
+}
 ]
