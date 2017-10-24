@@ -1,5 +1,17 @@
 [
     {
+        "name": "Vrunda",
+        "meaning": "Hebrew for \"Basil\"",
+        "translations": {
+            "ara":"فريندا",
+            "zho":"罗勒",
+            "ces":"Bazalka",
+            "guj":"વૃંદા",
+            "hin":"वृंदा",
+            "nep":"वृंदा"
+        }
+    },
+    {
         "name": "Adam",
         "meaning": "Hebrew for \"The ground or earth\"",
         "translations": {
