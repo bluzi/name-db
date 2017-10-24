@@ -9,7 +9,8 @@
             "guj": "વૃંદા",
             "hin": "वृंदा",
             "nep": "वृंदा",
-            "kan": "ವೃಂದಾ"
+            "kan": "ವೃಂದಾ",
+            "pol": "Bazylia"
         }
     },
     {
@@ -72,7 +73,8 @@
             "hin": "डेन्यल",
             "por": "Daniel",
             "deu": "Daniel",
-            "kan": "ಡೇನಿಯಲ್"
+            "kan": "ಡೇನಿಯಲ್",
+            "pol": "Adam"
         }
     },
     {
@@ -85,7 +87,8 @@
             "hin": "एंडी",
             "por": "André",
             "deu": "Anreas",
-            "kan": "ಆಂಡಿ"
+            "kan": "ಆಂಡಿ",
+            "pol": "Andrzej"
         }
     },
     {
@@ -107,7 +110,8 @@
             "slv": "Jasper",
             "heb": "קספר",
             "hin": "जैस्पर",
-            "kan": "ಜಾಸ್ಪರ್"
+            "kan": "ಜಾಸ್ಪರ್",
+            "pol": "Kacper"
         }
     },
     {
@@ -120,7 +124,8 @@
             "slv": "Emilija",
             "heb": "אמילי",
             "por": "Emilia",
-            "kan": "ಎಮಿಲಿ"
+            "kan": "ಎಮಿಲಿ",
+            "pol": "Emilia"
         }
     },
     {
@@ -155,13 +160,15 @@
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
             "fra": "José",
+            "hye": "Հովսեփ",
             "ces": "Josef",
             "jpn": "ジョセフ",
             "slv": "Jožef",
             "heb": "יוסף",
             "arb": "جوزف",
             "por": "José",
-            "deu": "Josef"
+            "deu": "Josef",
+            "pol": "Józef"
         }
     },
     {
@@ -184,7 +191,8 @@
             "fra": "Benjamin",
             "deu": "Benjamin",
             "heb": "בנג'מין",
-            "rus": "Бенджамен"
+            "rus": "Бенджамен",
+            "pol": "Benjamin"
         }
     },
     {
@@ -222,7 +230,8 @@
             "fra": "Patrice",
             "lat": "Patricius",
             "spa": "Patricio",
-            "deu": "Patrick"
+            "deu": "Patrick",
+            "pol": "Patryk"
         }
     },
     {
@@ -264,6 +273,7 @@
         "translations": {
             "fra": "Gabriel",
             "fin": "Kaapo",
+            "hye": "Գաբրիել",
             "rus": "Gavril",
             "spa": "Gabian",
             "por": "Gabriel",
@@ -285,7 +295,8 @@
         "meaning": "Norse for \"God Ingva's fighter\"",
         "translations": {
             "rus": "Игорь",
-            "ukr": "Iгор"
+            "ukr": "Iгор",
+            "pol": "Igor"
         }
     },
     {
@@ -293,7 +304,8 @@
         "meaning": "Beloved or friend, adopted from Hebrew",
         "translations": {
             "afr": "Dawid",
-            "deu": "David"
+            "deu": "David",
+            "hye": "Դավիթ"
         }
     },
     {
@@ -331,7 +343,8 @@
             "fra": "Marc",
             "rus": "Марк",
             "spa": "Marcos",
-            "deu": "Mark"
+            "deu": "Mark",
+            "pol": "Marek"
         }
     },
     {
@@ -340,7 +353,7 @@
         "translations": {
             "fra": "Jules",
             "ita": "Giulio",
-            "pol": "Julek",
+            "pol": "Juliusz",
             "por": "Júlio",
             "ron": "Iuliu",
             "rus": "Yuliy",
@@ -363,7 +376,8 @@
         "translations": {
             "fra": "Maurice",
             "deu": "Moritz",
-            "ita": "Maurizio"
+            "ita": "Maurizio",
+            "pol": "Maurycy"
         }
     },
     {
@@ -388,7 +402,8 @@
             "deu": "Sofia",
             "pol": "Sophię",
             "ron": "Sophiei",
-            "rus": "София"
+            "rus": "София",
+            "pol": "Zofia"
         }
     },
     {
@@ -431,7 +446,8 @@
             "ise": "Tommaso",
             "spa": "Tomás",
             "por": "Toma",
-            "rms": "Thomas"
+            "rms": "Thomas",
+            "pol": "Tomasz"
         }
     },
     {
