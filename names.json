@@ -359,5 +359,12 @@
         "translations": {
             "hin": "राजेश"
         }
+    },
+    {
+        "name": "Ratna",
+        "meaning": "Gems in Hindi",
+        "translations": {
+            "hin": "रत्न"
+        }
     }
 ]
