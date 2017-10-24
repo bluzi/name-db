@@ -81,13 +81,22 @@
         "name": "Awwal",
         "meaning" : "Arabic for \"First\"",
         "translations": {
-            "ar": "أَوَّل"
-    }
+            "ara": "أَوَّل"
+    },
     {
         "name": "Josef",
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
             "ces": "Josef"
         }
-    }
+    },
+    {
+         "name": "Serdar",
+         "meaning": "Turkmen for \"Chieftain\"",
+         "translations": {
+            "per": "سردار",
+            "tur": "Serdar",
+            "tkm": "Serdar"            
+         }
+      }
 ]
