@@ -447,5 +447,19 @@
         "translations": {
             "hin": "सागर"
         }
+    },
+    {
+        "name": "Alexander",
+        "meaning": "Greek for \"Defending men\"",
+        "transaltions": {
+            "pol": "Aleksander"
+        }
+    },
+    {
+        "name": "Martin",
+        "meaning": "derived form of the name of the Roman god Mars",
+        "transaltions": {
+            "pol": "Marcin"
+        }
     }
 ]
