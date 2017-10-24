@@ -123,7 +123,8 @@
         "translations": {
             "chi": "中文",
             "jpn":"メイ",
-            "heb": "מיי"
+            "heb": "מיי",
+            "hin": "में"
         }
     },
     {
@@ -131,7 +132,8 @@
         "meaning" : "Arabic for \"First\"",
         "translations": {
             "jpn":"アッワル",
-            "arb": "أَوَّل"
+            "arb": "أَوَّل",
+            "hin": "अव्‍वल"
         }
     },
     {
@@ -142,7 +144,8 @@
             "jpn":"ジョセフ",
             "slv": "Jožef",
             "heb": "יוסף",
-            "arb": "جوزف"
+            "arb": "جوزف",
+            "hin": "जोसेफ"
         }
     },
     {
@@ -163,7 +166,8 @@
         "translations": {
             "heb": "בנג'מין",
             "fra": "benjoin",
-            "rus": "Бенджамен"
+            "rus": "Бенджамен",
+            "hin": "बेंजामिन"
         }
     },
     {
@@ -174,7 +178,8 @@
             "ita": "Lucio",
             "pol": "Lucjusz",
             "por": "Lúcio",
-            "spa": "Lucio"
+            "spa": "Lucio",
+            "hin": "लुसियस"
         }
     },
     {
