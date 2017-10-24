@@ -110,5 +110,12 @@
         "translations": {
             "spa": "Micaela"
         }      
+    },
+    {
+        "name": "Matan",
+        "meaning": "Hewbrew for \"A present\"",
+        "translations": {
+            "heb": "מתן"
+        }      
     }
 ]
