@@ -1,6 +1,9 @@
 {
     "name": "andy",
     "meaning": "Greek for \"Manly or brave\"",
+    "aliases": [
+        "andrew"
+    ],
     "translations": {
         "fra": "André",
         "grk": "Ανδρέας",

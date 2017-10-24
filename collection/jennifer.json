@@ -1,6 +1,10 @@
 {
     "name": "jennifer",
     "meaning": "Welsh for \"The white enchantress\"",
+    "aliases": [
+        "jen",
+        "jenny"
+    ],
     "translations": {
         "fra": "Guenièvre",
         "heb": "ג'ניפר",
