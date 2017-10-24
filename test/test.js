@@ -32,10 +32,12 @@ describe('names.json', function () {
                     "type": "object",
                     "properties": {
                         "name": {
-                            "required": true
+                            "required": true,
+                            "type": "string"
                         },
                         "meaning": {
-                            "required": true
+                            "required": true,
+                            "type": "string"
                         },
                         "translations": {
                             "type": "object",
