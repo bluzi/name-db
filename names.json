@@ -52,7 +52,8 @@
             "ukr":"Адам",
             "uzb":"Odam",
             "vie":"ÁĐàm",
-            "yid":"Adi"
+            "yid":"Adi",
+            "deu":"Adam"
         }
     },
     {
@@ -66,7 +67,8 @@
             "lit": "Danielis",
             "rus": "Дании́л",
             "hin": "डेन्यल",
-            "por": "Daniel"
+            "por": "Daniel",
+            "deu": "Daniel"
         }
     },
     {
@@ -78,7 +80,8 @@
             "grk": "Ανδρέας",
             "spa": "André",
             "hin": "एंडी",
-            "por": "André"
+            "por": "André",
+            "deu":"Anreas"
         }
     },
     {
@@ -150,7 +153,8 @@
             "slv": "Jožef",
             "heb": "יוסף",
             "arb": "جوزف",
-            "por": "José"
+            "por": "José",
+            "deu": "Josef"
         }
     },
     {
@@ -162,7 +166,8 @@
             "ita": "Ginevra",
             "kor": "제니퍼",
             "wlm": "Gwenhwyfar",
-            "hin": "जेनिफर"
+            "hin": "जेनिफर",
+            "deu": "Jennifer"
         }
     },
     {
@@ -170,7 +175,8 @@
         "meaning": "Hebrew for \"son of the south\" or \"son of the right hand\"",
         "translations": {
             "heb": "בנג'מין",
-            "rus": "Бенджамен"
+            "rus": "Бенджамен",
+            "deu": "Benjamin"
         }
     },
     {
@@ -207,7 +213,8 @@
         "translations": {
             "fra": "Patrice",
             "lat": "Patricius",
-            "spa": "Patricio"
+            "spa": "Patricio",
+            "deu": "Patrick"
         }
     },
     {
@@ -215,7 +222,8 @@
         "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
         "translations": {
             "spa": "Micaela",
-            "por": "Michele"
+            "por": "Michele",
+            "deu": "Michael"
         }
     },
     {
@@ -230,7 +238,8 @@
         "name": "Ian",
         "meaning":  "Scottish for \"God is gracious\"",
         "translations": {
-            "fra": "Yan"
+            "fra": "Yan",
+            "deu": "Jan"
         }
     },
     {
@@ -247,7 +256,8 @@
     		"fin": "Kaapo",
     		"rus": "Gavril",
     		"spa": "Gabian",
-        "por": "Gabriel"
+            "por": "Gabriel",
+            "deu": "Gabriel"
     	}
     },
     {
@@ -262,7 +272,7 @@
     },
     {
         "name": "Igor",
-        "meaning": "derived from Norse, meaning \"God Ingva's fighter\"",
+        "meaning": "Norse for \"God Ingva's fighter\"",
         "translations": {
             "rus": "Игорь",
             "ukr": "Iгор"
@@ -273,7 +283,7 @@
         "meaning": "Beloved or friend, adopted from Hebrew",
         "translations": {
             "afr": "Dawid",
-            "rus": "Давид"
+            "deu": "David"
         }
     },
     {
@@ -282,14 +292,14 @@
         "translations": {
             "eng": "Max",
             "swe": "Max",
-            "rus": "Максим",
-            "ukr": "Максим"
+            "deu": "Max"
         }
     },
     {
         "name": "Wagner",
         "meaning": "German (also Wägner) and Jewish (Ashkenazic): occupational name for a carter or cartwright, from an agent derivative of Middle High German wagen \"cart\", \"wagon\", German Wagen",
         "translations": {
+            "deu": "Wagner"
         }
     },
     {
@@ -302,6 +312,7 @@
         "name": "Juliana",
         "meaning": "Feminine of Julius, Latin for \"youthful\"",
         "translations": {
+            "deu": "Julia"
         }
     },
     {
@@ -310,7 +321,8 @@
       "translations": {
         "eng": "Mark",
         "rus": "Марк",
-        "spa": "Marcos"
+        "spa": "Marcos",
+         "deu": "Mark"
       }
     },
     {
@@ -325,7 +337,8 @@
         "rus": "Yuliy",
         "slk": "Július",
         "slv": "Julij",
-        "spa": "Julio"
+        "spa": "Julio",
+         "deu": "Julius"
       }
     }
 ]
