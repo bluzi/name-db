@@ -1,371 +1,377 @@
-[{
-		"name": "Vrunda",
-		"meaning": "Hebrew for \"Basil\"",
-		"translations": {
-			"ara": "فريندا",
-			"zho": "罗勒",
-			"ces": "Bazalka",
-			"guj": "વૃંદા",
-			"hin": "वृंदा",
-			"nep": "वृंदा"
-		}
-	},
-	{
-		"name": "Adam",
-		"meaning": "Hebrew for \"The ground or earth\"",
-		"translations": {
-			"ara": "آدم",
-			"hye": "Ադամ",
-			"bel": "Адам",
-			"ben": "আদম",
-			"bul": "Адам",
-			"zho": "亚当",
-			"ces": "Adam",
-			"ell": "Αδάμ",
-			"guj": "આદમ",
-			"heb": "אדם",
-			"hin": "आदम",
-			"hun": "Ádám",
-			"ita": "Adamo",
-			"jpn": "アダム",
-			"kan": "ಆಡಮ್",
-			"kor": "아담",
-			"lao": "ອາດາມ",
-			"lat": "Adamus",
-			"lit": "Adomas",
-			"mri": "Arama",
-			"mon": "Адам",
-			"nep": "आदम",
-			"pol": "Adam",
-			"por": "Adão",
-			"rus": "Адам",
-			"srp": "Adam",
-			"gla": "Adhamh",
-			"slv": "Adam",
-			"som": "Aden",
-			"spa": "Adán",
-			"swa": "Adamu",
-			"tam": "ஆதாம்",
-			"tha": "อาดัม",
-			"tur": "Adem",
-			"ukr": "Адам",
-			"uzb": "Odam",
-			"vie": "ÁĐàm",
-			"yid": "Adi",
-			"deu": "Adam"
-		}
-	},
-	{
-		"name": "Daniel",
-		"meaning": "Masculine form. Hewbrew for \"God is my Judge\". Derived from the bibical figures of Daniel.",
-		"translations": {
-			"ara": "دَانْيَال",
-			"heb": "דָּנִיֵּאל",
-			"ita": "Daniele",
-			"jpn": "ダニエル",
-			"lit": "Danielis",
-			"rus": "Дании́л",
-			"hin": "डेन्यल",
-			"por": "Daniel",
-			"deu": "Daniel"
-		}
-	},
-	{
-		"name": "Andy",
-		"meaning": "Greek for \"Manly or brave\"",
-		"translations": {
-			"eng": "Andrew",
-			"fra": "André",
-			"grk": "Ανδρέας",
-			"spa": "André",
-			"hin": "एंडी",
-			"por": "André",
-			"deu": "Anreas"
-		}
-	},
-	{
-		"name": "Eliran",
-		"meaning": "Hebrew for \"God is pleased\"",
-		"translations": {
-			"heb": "אלירן",
-			"jpn": "エリーラン"
+[
+    {
+        "name": "Vrunda",
+        "meaning": "Hebrew for \"Basil\"",
+        "translations": {
+            "ara":"فريندا",
+            "zho":"罗勒",
+            "ces":"Bazalka",
+            "guj":"વૃંદા",
+            "hin":"वृंदा",
+            "nep":"वृंदा"
+        }
+    },
+    {
+        "name": "Adam",
+        "meaning": "Hebrew for \"The ground or earth\"",
+        "translations": {
+            "ara":"آدم",
+            "hye":"Ադամ",
+            "bel":"Адам",
+            "ben":"আদম",
+            "bul":"Адам",
+            "zho":"亚当",
+            "ces":"Adam",
+            "ell":"Αδάμ",
+            "guj":"આદમ",
+            "heb":"אדם",
+            "hin":"आदम",
+            "hun":"Ádám",
+            "ita":"Adamo",
+            "jpn":"アダム",
+            "kan":"ಆಡಮ್",
+            "kor":"아담",
+            "lao":"ອາດາມ",
+            "lat":"Adamus",
+            "lit":"Adomas",
+            "mri":"Arama",
+            "mon":"Адам",
+            "nep":"आदम",
+            "pol":"Adam",
+            "por":"Adão",
+            "rus":"Адам",
+            "srp":"Adam",
+            "gla":"Adhamh",
+            "slv":"Adam",
+            "som":"Aden",
+            "spa":"Adán",
+            "swa":"Adamu",
+            "tam":"ஆதாம்",
+            "tha":"อาดัม",
+            "tur":"Adem",
+            "ukr":"Адам",
+            "uzb":"Odam",
+            "vie":"ÁĐàm",
+            "yid":"Adi",
+            "deu":"Adam"
+        }
+    },
+    {
+        "name": "Daniel",
+        "meaning": "Masculine form. Hewbrew for \"God is my Judge\". Derived from the bibical figures of Daniel.",
+        "translations": {
+            "ara": "دَانْيَال",
+            "heb": "דָּנִיֵּאל",
+            "ita": "Daniele",
+            "jpn": "ダニエル",
+            "lit": "Danielis",
+            "rus": "Дании́л",
+            "hin": "डेन्यल",
+            "por": "Daniel",
+            "deu": "Daniel"
+        }
+    },
+    {
+        "name": "Andy",
+        "meaning": "Greek for \"Manly or brave\"",
+        "translations": {
+            "fra": "André",
+            "grk": "Ανδρέας",
+            "spa": "André",
+            "hin": "एंडी",
+            "por": "André",
+            "deu":"Anreas"
+        }
+    },
+    {
+        "name": "Eliran",
+        "meaning": "Hebrew for \"God is pleased\"",
+        "translations": {
+            "heb": "אלירן",
+            "jpn":"エリーラン"
 
-		}
-	},
-	{
-		"name": "Jasper",
-		"meaning": "Persian for \"Treasurer\"",
-		"translations": {
-			"fra": "Gaspard",
-			"jpn": "ジャスパー",
-			"per": "یشم",
-			"slv": "Jasper",
-			"heb": "קספר",
-			"hin": "जैस्पर"
-		}
-	},
-	{
-		"name": "Emily",
-		"meaning": "Latin for \"rival\"",
-		"translations": {
-			"fra": "Émilie",
-			"jpn": "エミリー",
-			"lat": "Aemilia",
-			"slv": "Emilija",
-			"heb": "אמילי",
-			"por": "Emilia"
-		}
-	},
-	{
-		"name": "Kelly",
-		"meaning": "Irish for \"fighter\"",
-		"translations": {
-			"gle": "Ó Ceallaigh",
-			"jpn": "ケリー",
-			"heb": "קלי"
-		}
-	},
-	{
-		"name": "Mei",
-		"meaning": "chinese for \"Plum\"",
-		"translations": {
-			"chi": "中文",
-			"jpn": "メイ",
-			"heb": "מיי"
-		}
-	},
-	{
-		"name": "Awwal",
-		"meaning": "Arabic for \"First\"",
-		"translations": {
-			"jpn": "アッワル",
-			"arb": "أَوَّل"
-		}
-	},
-	{
-		"name": "Josef",
-		"meaning": "Hebrew for \"He will enlarge, God will increase\"",
-		"translations": {
-			"fra": "José",
-			"ces": "Josef",
-			"jpn": "ジョセフ",
-			"slv": "Jožef",
-			"heb": "יוסף",
-			"arb": "جوزف",
-			"por": "José",
-			"deu": "Josef"
-		}
-	},
-	{
-		"name": "Jennifer",
-		"meaning": "Welsh for \"The white enchantress\"",
-		"translations": {
-			"fra": "Guenièvre",
-			"heb": "ג'ניפר",
-			"ita": "Ginevra",
-			"kor": "제니퍼",
-			"wlm": "Gwenhwyfar",
-			"hin": "जेनिफर",
-			"deu": "Jennifer"
-		}
-	},
-	{
-		"name": "Benjamin",
-		"meaning": "Hebrew for \"son of the south\" or \"son of the right hand\"",
-		"translations": {
-			"heb": "בנג'מין",
-			"rus": "Бенджамен",
-			"deu": "Benjamin"
-		}
-	},
-	{
-		"name": "Lucius",
-		"meaning": "derived from Latin lux \"light\"",
-		"translations": {
-			"fra": "Luc",
-			"ell": "Λούκιος",
-			"ita": "Lucio",
-			"pol": "Lucjusz",
-			"por": "Lúcio",
-			"spa": "Lucio"
-		}
-	},
-	{
-		"name": "Roshan",
-		"meaning": "Hindi for \"Light\" ",
-		"translations": {
-			"hin": "रोशन"
-		}
-	},
-	{
-		"name": "Serdar",
-		"meaning": "Turkmen for \"Chieftain\"",
-		"translations": {
-			"per": "سردار",
-			"tur": "Serdar",
-			"tkm": "Serdar"
-		}
-	},
-	{
-		"name": "Patrick",
-		"meaning": "Irish for \"Noble\"",
-		"translations": {
-			"fra": "Patrice",
-			"lat": "Patricius",
-			"spa": "Patricio",
-			"deu": "Patrick"
-		}
-	},
-	{
-		"name": "Michelle",
-		"meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
-		"translations": {
-			"spa": "Micaela",
-			"por": "Michele",
-			"deu": "Michael"
-		}
-	},
-	{
-		"name": "Matan",
-		"meaning": "Hewbrew for \"A present\"",
-		"translations": {
-			"heb": "מתן",
-			"fra": "Mattan"
-		}
-	},
-	{
-		"name": "Ian",
-		"meaning": "Scottish for \"God is gracious\"",
-		"translations": {
-			"fra": "Yan",
-			"deu": "Jan"
-		}
-	},
-	{
-		"name": "Paras",
-		"meaning": "Hindi for \"Touchstone\"",
-		"translations": {
-			"hin": "पारस"
-		}
-	},
-	{
-		"name": "Gabriel",
-		"meaning": "Hebrew for \"God is my strength\"",
-		"translations": {
-			"fin": "Kaapo",
-			"rus": "Gavril",
-			"spa": "Gabian",
-			"por": "Gabriel",
-			"deu": "Gabriel"
-		}
-	},
-	{
-		"name": "Blake",
-		"meaning": "Strong or bold",
-		"translations": {
-			"per": "بلیک",
-			"jpn": "ブレイク",
-			"rus": "Блэйк",
-			"ukr": "Блейк"
-		}
-	},
-	{
-		"name": "Igor",
-		"meaning": "Norse for \"God Ingva's fighter\"",
-		"translations": {
-			"rus": "Игорь",
-			"ukr": "Iгор"
-		}
-	},
-	{
-		"name": "Dave",
-		"meaning": "Beloved or friend, adopted from Hebrew",
-		"translations": {
-			"afr": "Dawid",
-			"deu": "David"
-		}
-	},
-	{
-		"name": "Max",
-		"meaning": "Short for Maximilian. Which is derived from Maximus that in latin means \"the greatest\"",
-		"translations": {
-			"eng": "Max",
-			"swe": "Max",
-			"deu": "Max"
-		}
-	},
-	{
-		"name": "Wagner",
-		"meaning": "German (also Wägner) and Jewish (Ashkenazic): occupational name for a carter or cartwright, from an agent derivative of Middle High German wagen \"cart\", \"wagon\", German Wagen",
-		"translations": {
-			"deu": "Wagner"
-		}
-	},
-	{
-		"name": "Mauro",
-		"meaning": "derived from latin Maurus, which meant \"dark skinned\". This was the name of numerous early saints, most notably a follower of Saint Benedict.",
-		"translations": {}
-	},
-	{
-		"name": "Juliana",
-		"meaning": "Feminine of Julius, Latin for \"youthful\"",
-		"translations": {
-			"deu": "Julia"
-		}
-	},
-	{
-		"name": "Mark",
-		"meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
-		"translations": {
-			"eng": "Mark",
-			"rus": "Марк",
-			"spa": "Marcos",
-			"deu": "Mark"
-		}
-	},
-	{
-		"name": "Julius",
-		"meaning": "Latin for \"downy-bearded or youth\"",
-		"translations": {
-			"fra": "Jules",
-			"ita": "Giulio",
-			"pol": "Julek",
-			"por": "Júlio",
-			"ron": "Iuliu",
-			"rus": "Yuliy",
-			"slk": "Július",
-			"slv": "Julij",
-			"spa": "Julio",
-			"deu": "Julius"
-		}
-	},
-	{
-		"name": "Vishwas",
-		"meaning": "Hindi for \"Trust\"",
-		"translations": {
-			"hin": "विश्वास"
-		}
-	},
-	{
-		"name": "Maurice",
-		"meaning": "Man from Mauritania",
-		"translations": {
-			"deu": "Moritz",
-			"ita": "Maurizio"
-		}
-	},
-	{
-		"name": "Sergey",
-		"meaning": "derived from latin Sergei, which meant \"Attendant. Also a Protector, shepherd\"",
-		"translations": {
-			"rus": "Сергей",
-			"ukr": "Сергій",
-			"fra": "Serge",
-			"ita": "Sergio",
-			"spa": "Sergio",
-			"grk": "Σέργιος",
-			"rom": "Sergiu",
-			"cro": "Срђан"
-		}
-	}
+        }
+    },
+    {
+        "name": "Jasper",
+        "meaning": "Persian for \"Treasurer\"",
+        "translations": {
+            "fra": "Gaspard",
+            "jpn":"ジャスパー",
+            "per": "یشم",
+            "slv": "Jasper",
+            "heb": "קספר",
+            "hin": "जैस्पर"
+        }
+    },
+    {
+        "name": "Emily",
+        "meaning": "Latin for \"rival\"",
+        "translations": {
+            "fra": "Émilie",
+            "jpn":"エミリー",
+            "lat": "Aemilia",
+            "slv": "Emilija",
+            "heb": "אמילי",
+            "por": "Emilia"
+        }
+    },
+    {
+        "name": "Kelly",
+        "meaning": "Irish for \"fighter\"",
+        "translations": {
+            "gle": "Ó Ceallaigh",
+            "jpn":"ケリー",
+            "heb": "קלי"
+        }
+    },
+    {
+        "name": "Mei",
+        "meaning": "chinese for \"Plum\"",
+        "translations": {
+            "chi": "中文",
+            "jpn":"メイ",
+            "heb": "מיי"
+        }
+    },
+    {
+        "name": "Awwal",
+        "meaning" : "Arabic for \"First\"",
+        "translations": {
+            "jpn":"アッワル",
+            "arb": "أَوَّل"
+        }
+    },
+    {
+        "name": "Josef",
+        "meaning": "Hebrew for \"He will enlarge, God will increase\"",
+        "translations": {
+            "fra": "José",
+            "ces": "Josef",
+            "jpn":"ジョセフ",
+            "slv": "Jožef",
+            "heb": "יוסף",
+            "arb": "جوزف",
+            "por": "José",
+            "deu": "Josef"
+        }
+    },
+    {
+        "name": "Jennifer",
+        "meaning": "Welsh for \"The white enchantress\"",
+        "translations": {
+            "fra": "Guenièvre",
+            "heb": "ג'ניפר",
+            "ita": "Ginevra",
+            "kor": "제니퍼",
+            "wlm": "Gwenhwyfar",
+            "hin": "जेनिफर",
+            "deu": "Jennifer"
+        }
+    },
+    {
+        "name": "Benjamin",
+        "meaning": "Hebrew for \"son of the south\" or \"son of the right hand\"",
+        "translations": {
+            "heb": "בנג'מין",
+            "rus": "Бенджамен",
+            "deu": "Benjamin"
+        }
+    },
+    {
+        "name": "Lucius",
+        "meaning": "derived from Latin lux \"light\"",
+        "translations": {
+            "fra": "Luc",
+            "ell": "Λούκιος",
+            "ita": "Lucio",
+            "pol": "Lucjusz",
+            "por": "Lúcio",
+            "spa": "Lucio"
+        }
+    },
+    {
+        "name": "Roshan",
+        "meaning": "Hindi for \"Light\" ",
+        "translations": {
+          "hin": "रोशन"
+        }
+    },
+    {
+        "name": "Serdar",
+        "meaning": "Turkmen for \"Chieftain\"",
+        "translations": {
+          "per": "سردار",
+          "tur": "Serdar",
+          "tkm": "Serdar"
+        }
+    },
+    {
+        "name": "Patrick",
+        "meaning": "Irish for \"Noble\"",
+        "translations": {
+            "fra": "Patrice",
+            "lat": "Patricius",
+            "spa": "Patricio",
+            "deu": "Patrick"
+        }
+    },
+    {
+        "name": "Michelle",
+        "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
+        "translations": {
+            "spa": "Micaela",
+            "por": "Michele",
+            "deu": "Michael"
+        }
+    },
+    {
+        "name": "Matan",
+        "meaning": "Hewbrew for \"A present\"",
+        "translations": {
+            "heb": "מתן",
+            "fra": "Mattan"
+        }
+    },
+    {
+        "name": "Ian",
+        "meaning":  "Scottish for \"God is gracious\"",
+        "translations": {
+            "fra": "Yan",
+            "deu": "Jan"
+        }
+    },
+    {
+        "name": "Paras",
+        "meaning": "Hindi for \"Touchstone\"",
+        "translations": {
+            "hin": "पारस"
+        }
+    },
+    {
+    	"name": "Gabriel",
+    	"meaning": "Hebrew for \"God is my strength\"",
+    	"translations": {
+    		"fin": "Kaapo",
+    		"rus": "Gavril",
+    		"spa": "Gabian",
+            "por": "Gabriel",
+            "deu": "Gabriel"
+    	}
+    },
+    {
+        "name": "Blake",
+        "meaning": "Strong or bold",
+        "translations": {
+            "per": "بلیک",
+            "jpn": "ブレイク",
+            "rus": "Блэйк",
+            "ukr": "Блейк"
+        }
+    },
+    {
+        "name": "Igor",
+        "meaning": "Norse for \"God Ingva's fighter\"",
+        "translations": {
+            "rus": "Игорь",
+            "ukr": "Iгор"
+        }
+    },
+    {
+        "name": "Dave",
+        "meaning": "Beloved or friend, adopted from Hebrew",
+        "translations": {
+            "afr": "Dawid",
+            "deu": "David"
+        }
+    },
+    {
+        "name": "Max",
+        "meaning": "Short for Maximilian. Which is derived from Maximus that in latin means \"the greatest\"",
+        "translations": {
+            "swe": "Max",
+            "deu": "Max"
+        }
+    },
+    {
+        "name": "Wagner",
+        "meaning": "German (also Wägner) and Jewish (Ashkenazic): occupational name for a carter or cartwright, from an agent derivative of Middle High German wagen \"cart\", \"wagon\", German Wagen",
+        "translations": {
+            "deu": "Wagner"
+        }
+    },
+    {
+        "name": "Mauro",
+        "meaning": "derived from latin Maurus, which meant \"dark skinned\". This was the name of numerous early saints, most notably a follower of Saint Benedict.",
+        "translations": {
+        }
+    },
+    {
+        "name": "Juliana",
+        "meaning": "Feminine of Julius, Latin for \"youthful\"",
+        "translations": {
+            "deu": "Julia"
+        }
+    },
+    {
+      "name": "Mark",
+      "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
+      "translations": {
+        "rus": "Марк",
+        "spa": "Marcos",
+         "deu": "Mark"
+      }
+    },
+    {
+      "name": "Julius",
+      "meaning": "Latin for \"downy-bearded or youth\"",
+      "translations": {
+        "fra": "Jules",
+        "ita": "Giulio",
+        "pol": "Julek",
+        "por": "Júlio",
+        "ron": "Iuliu",
+        "rus": "Yuliy",
+        "slk": "Július",
+        "slv": "Julij",
+        "spa": "Julio",
+         "deu": "Julius"
+      }
+    },
+    {
+        "name": "Vishwas",
+        "meaning": "Hindi for \"Trust\"",
+        "translations": {
+            "hin": "विश्वास"
+        }
+    },
+    {
+    "name": "Maurice",
+    "meaning": "Man from Mauritania",
+    "translations": {
+        "deu": "Moritz",
+        "ita": "Maurizio"
+    }
+},
+  {
+  	"name": "Sergey",
+ 		"meaning": "derived from latin Sergei, which meant \"Attendant. Also a Protector, shepherd\"",
+ 		"translations": {
+ 		"rus": "Сергей",
+ 		"ukr": "Сергій",
+ 		"fra": "Serge",
+		"ita": "Sergio",
+ 		"spa": "Sergio",
+ 		"grk": "Σέργιος",
+ 		"rom": "Sergiu",
+ 		"cro": "Срђан"
+ 		}
+ },
+    {
+        "name": "Rajesh",
+        "meaning": "God of kings",
+        "translations": {
+            "hin": "राजेश"
+        }
+    }
 ]
