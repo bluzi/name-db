@@ -44,7 +44,7 @@ describe('names.json', function () {
                             "patternProperties": {
                                 // this part checks that the language code is lower case
                                 // and only 3 characters
-                                "^[a-z]{3}$": {
+                                "^(?!eng)[a-z]{3}$": {
                                     "type": "string"
                                 }
                             },
