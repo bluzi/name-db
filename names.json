@@ -154,7 +154,15 @@
         "translations": {
           "per": "سردار",
           "tur": "Serdar",
-          "tkm": "Serdar"            
+          "tkm": "Serdar"   
+        }
+    },
+    {
+        "name": "Patrick",
+        "meaning": "Irish for \"Noble\"",
+        "translations": {
+            "lat": "Patricius",
+            "spa": "Patricio"
         }
     },
     {
