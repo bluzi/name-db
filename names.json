@@ -249,7 +249,17 @@
         "meaning": "Strong or bold",
         "translations": {
             "per": "بلیک",
-            "jpn": "ブレイク"
+            "jpn": "ブレイク",
+            "rus": "Блэйк",
+            "ukr": "Блейк"
+        }
+    },
+    {
+        "name": "Igor",
+        "meaning": "Norse for \"God Ingva's fighter\"",
+        "translations": {
+            "rus": "Игорь",
+            "ukr": "Iгор"
         }
     },
     {
