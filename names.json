@@ -43,6 +43,16 @@
         }
     },
     {
+        "name": "Andy",
+        "meaning": "Greek for \"Manly or brave\"",
+        "translations": {
+            "eng": "Andrew",
+            "grk": "Ανδρέας",
+            "scot": "Andy",
+            "spa": "André"
+        }
+    },
+    {
         "name": "Eliran",
         "meaning": "Hebrew for \"God is pleased\"",
         "translations": {
