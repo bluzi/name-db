@@ -259,5 +259,14 @@
             "eng": "Max",
             "swe": "Max"
         }
+    },
+    {
+      "name": "Mark",
+      "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
+      "translations": {
+        "eng": "Mark",
+        "ru": "Марк",
+        "spa": "Marcos"
+      }
     }
 ]
