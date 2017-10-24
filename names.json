@@ -262,7 +262,7 @@
     },
     {
         "name": "Igor",
-        "meaning": "Norse for \"God Ingva's fighter\"",
+        "meaning": "derived from Norse, meaning \"God Ingva's fighter\"",
         "translations": {
             "rus": "Игорь",
             "ukr": "Iгор"
@@ -272,7 +272,8 @@
         "name": "Dave",
         "meaning": "Beloved or friend, adopted from Hebrew",
         "translations": {
-            "afr": "Dawid"
+            "afr": "Dawid",
+            "rus": "Давид"
         }
     },
     {
@@ -280,7 +281,9 @@
         "meaning": "Short for Maximilian. Which is derived from Maximus that in latin means \"the greatest\"",
         "translations": {
             "eng": "Max",
-            "swe": "Max"
+            "swe": "Max",
+            "rus": "Максим",
+            "ukr": "Максим"
         }
     },
     {
