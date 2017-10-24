@@ -347,5 +347,13 @@
         "translations": {
             "hin": "विश्वास"
         }
+    },
+    {
+    "name": "Maurice",
+    "meaning": "Man from Mauritania",
+    "translations": {
+        "deu": "Moritz",
+        "ita": "Maurizio"
     }
+}
 ]
