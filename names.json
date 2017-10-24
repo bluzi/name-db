@@ -261,5 +261,23 @@
             "rus": "Игорь",
             "ukr": "Iгор"
         }
+    },
+    {
+        "name": "Dave",
+        "meaning": "Beloved or friend, adopted from Hebrew",
+        "translations": {
+            "afr": "Dawid",
+            "rus": "Давид"
+        }
+    },
+    {
+        "name": "Max",
+        "meaning": "Short for Maximilian. Which is derived from Maximus that in latin means \"the greatest\"",
+        "translations": {
+            "eng": "Max",
+            "swe": "Max",
+            "rus": "Максим",
+            "ukr": "Максим"
+        }
     }
 ]
