@@ -82,23 +82,23 @@
         "meaning" : "Arabic for \"First\"",
         "translations": {
             "ar": "أَوَّل"
-    }
+    },
     {
         "name": "Josef",
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
             "ces": "Josef"
         }
-    }
+    },
     {
         "name": "Lucius", 
         "meaning": "", "derived from Latin lux \"light\""
         "translations": {
-            "ell": "Λούκιος"
-            "ita": "Lucio"
-            "pol": "Lucjusz"
-            "por": "Lúcio" 
-            "spa": "Lucio" 
+            "ell": "Λούκιος",
+            "ita": "Lucio",
+            "pol": "Lucjusz",
+            "por": "Lúcio",
+            "spa": "Lucio"
         }
     }
 ]
