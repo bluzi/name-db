@@ -56,6 +56,18 @@
         }
     },
     {
+        "name": "Daniel",
+        "meaning": "Masculine form. Hewbrew for \"God is my Judge\". Derived from the bibical figures of Daniel.",
+        "translations": {
+            "ara": "دَانْيَال",
+            "heb": "דָּנִיֵּאל",
+            "ita": "Daniele",
+            "jpn": "ダニエル",
+            "lit": "Danielis",
+            "rus": "Дании́л"
+        }
+    },
+    {
         "name": "Andy",
         "meaning": "Greek for \"Manly or brave\"",
         "translations": {
