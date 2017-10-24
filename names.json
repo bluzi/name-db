@@ -354,6 +354,18 @@
     "translations": {
         "deu": "Moritz",
         "ita": "Maurizio"
+    },
+    {
+    "name": "Saurabh", 
+    "meaning": "Fragnance", 
+    "translations": {
+        "hin": "सौरभ" 
+    },
+    {
+    "name": "Sagar", 
+    "meaning": "Ocean", 
+    "translations": {
+        "hin": "सागर" 
     }
 }
 ]
