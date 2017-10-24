@@ -243,5 +243,13 @@
     		"rus": "Gavril",
     		"spa": "Gabian"
     	}
+    },
+    {
+        "name": "Blake",
+        "meaning": "Strong or bold",
+        "translations": {
+            "per": "بلیک",
+            "jpn": "ブレイク"
+        }
     }
 ]
