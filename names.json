@@ -61,6 +61,7 @@
         "meaning": "Masculine form. Hewbrew for \"God is my Judge\". Derived from the bibical figures of Daniel.",
         "translations": {
             "ara": "دَانْيَال",
+            "fra": "Daniel",
             "heb": "דָּנִיֵּאל",
             "ita": "Daniele",
             "jpn": "ダニエル",
@@ -75,6 +76,7 @@
         "name": "Andy",
         "meaning": "Greek for \"Manly or brave\"",
         "translations": {
+            "eng": "Andrew",
             "fra": "André",
             "grk": "Ανδρέας",
             "spa": "André",
@@ -173,6 +175,8 @@
         "name": "Benjamin",
         "meaning": "Hebrew for \"son of the south\" or \"son of the right hand\"",
         "translations": {
+            "fra": "Benjamin",
+            "deu": "Benjamin",
             "heb": "בנג'מין",
             "rus": "Бенджамен",
             "deu": "Benjamin"
@@ -220,6 +224,7 @@
         "name": "Michelle",
         "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
         "translations": {
+            "fra": "Michelle",
             "spa": "Micaela",
             "por": "Michele",
             "deu": "Michael"
@@ -252,6 +257,7 @@
     	"name": "Gabriel",
     	"meaning": "Hebrew for \"God is my strength\"",
     	"translations": {
+            "fra": "Gabriel",
     		"fin": "Kaapo",
     		"rus": "Gavril",
     		"spa": "Gabian",
@@ -289,6 +295,7 @@
         "name": "Max",
         "meaning": "Short for Maximilian. Which is derived from Maximus that in latin means \"the greatest\"",
         "translations": {
+            "eng": "Max",
             "swe": "Max",
             "deu": "Max"
         }
@@ -310,6 +317,7 @@
         "name": "Juliana",
         "meaning": "Feminine of Julius, Latin for \"youthful\"",
         "translations": {
+            "fra": "Julie",
             "deu": "Julia"
         }
     },
@@ -317,6 +325,8 @@
       "name": "Mark",
       "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
       "translations": {
+        "fra": "Marc",
+        "eng": "Mark",
         "rus": "Марк",
         "spa": "Marcos",
          "deu": "Mark"
@@ -349,15 +359,9 @@
     "name": "Maurice",
     "meaning": "Man from Mauritania",
     "translations": {
+        "fra": "Maurice",
         "deu": "Moritz",
         "ita": "Maurizio"
     }
-},
-    {
-        "name": "Rajesh",
-        "meaning": "God of kings",
-        "translations": {
-            "hin": "राजेश"
-        }
-    }
+}
 ]
