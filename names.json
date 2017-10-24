@@ -53,7 +53,7 @@
             "uzb":"Odam",
             "vie":"ÁĐàm",
             "yid":"Adi",
-            "de":"Adam"
+            "deu":"Adam"
         }
     },
     {
@@ -68,7 +68,7 @@
             "rus": "Дании́л",
             "hin": "डेन्यल",
             "por": "Daniel",
-            "de": "Daniel"
+            "deu": "Daniel"
         }
     },
     {
@@ -81,7 +81,7 @@
             "spa": "André",
             "hin": "एंडी",
             "por": "André",
-            "de":"Anreas"
+            "deu":"Anreas"
         }
     },
     {
@@ -154,7 +154,7 @@
             "heb": "יוסף",
             "arb": "جوزف",
             "por": "José",
-            "de": "Josef"
+            "deu": "Josef"
         }
     },
     {
@@ -167,7 +167,7 @@
             "kor": "제니퍼",
             "wlm": "Gwenhwyfar",
             "hin": "जेनिफर",
-            "de": "Jennifer"
+            "deu": "Jennifer"
         }
     },
     {
@@ -176,7 +176,7 @@
         "translations": {
             "heb": "בנג'מין",
             "rus": "Бенджамен",
-            "de": "Benjamin"
+            "deu": "Benjamin"
         }
     },
     {
@@ -214,7 +214,7 @@
             "fra": "Patrice",
             "lat": "Patricius",
             "spa": "Patricio",
-            "de": "Patrick"
+            "deu": "Patrick"
         }
     },
     {
@@ -223,7 +223,7 @@
         "translations": {
             "spa": "Micaela",
             "por": "Michele",
-            "de": "Michael"
+            "deu": "Michael"
         }
     },
     {
@@ -239,7 +239,7 @@
         "meaning":  "Scottish for \"God is gracious\"",
         "translations": {
             "fra": "Yan",
-            "de": "Jan"
+            "deu": "Jan"
         }
     },
     {
@@ -257,7 +257,7 @@
     		"rus": "Gavril",
     		"spa": "Gabian",
             "por": "Gabriel",
-            "de": "Gabriel"
+            "deu": "Gabriel"
     	}
     },
     {
@@ -283,7 +283,7 @@
         "meaning": "Beloved or friend, adopted from Hebrew",
         "translations": {
             "afr": "Dawid",
-            "de": "David"
+            "deu": "David"
         }
     },
     {
@@ -292,14 +292,14 @@
         "translations": {
             "eng": "Max",
             "swe": "Max",
-            "de": "Max"
+            "deu": "Max"
         }
     },
     {
         "name": "Wagner",
         "meaning": "German (also Wägner) and Jewish (Ashkenazic): occupational name for a carter or cartwright, from an agent derivative of Middle High German wagen \"cart\", \"wagon\", German Wagen",
         "translations": {
-            "de": "Wagner"
+            "deu": "Wagner"
         }
     },
     {
@@ -312,7 +312,7 @@
         "name": "Juliana",
         "meaning": "Feminine of Julius, Latin for \"youthful\"",
         "translations": {
-            "de": "Julia"
+            "deu": "Julia"
         }
     },
     {
@@ -322,7 +322,7 @@
         "eng": "Mark",
         "rus": "Марк",
         "spa": "Marcos",
-         "de": "Mark"
+         "deu": "Mark"
       }
     },
     {
@@ -338,7 +338,7 @@
         "slk": "Július",
         "slv": "Julij",
         "spa": "Julio",
-         "de": "Julius"
+         "deu": "Julius"
       }
     }
 ]
