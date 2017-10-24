@@ -1,6 +1,9 @@
 {
     "name": "dave",
     "meaning": "Beloved or friend, adopted from Hebrew",
+    "aliases": [
+        "david"
+    ],
     "translations": {
         "afr": "Dawid",
         "deu": "David",
