@@ -46,13 +46,16 @@
         "name": "Eliran",
         "meaning": "Hebrew for \"God is pleased\"",
         "translations": {
-            "heb": "אלירן"
+            "heb": "אלירן",
+            "jpn":"エリーラン"
+
         }
     },
     {
         "name": "Jasper",
         "meaning": "Persian for \"Treasurer\"",
         "translations": {
+            "jpn":"ジャスパー",
             "per": "یشم"
         }
     },
@@ -60,21 +63,25 @@
         "name": "Emily",
         "meaning": "Latin for \"rival\"",
         "translations": {
+            "jpn":"エミリー",
             "lat": "Aemilia"
+            
         }
     },
     {
         "name": "Kelly",
         "meaning": "Irish for \"fighter\"",
         "translations": {
-            "gle": "Ó Ceallaigh"
+            "gle": "Ó Ceallaigh",
+            "jpn":"ケリー"
         }
     },
     {
         "name": "Mei",
         "meaning": "chinese for \"Plum\"",
         "translations": {
-            "chi": "中文"
+            "chi": "中文",
+            "jpn":"メイ"
         }
     },
     {
@@ -82,12 +89,15 @@
         "meaning" : "Arabic for \"First\"",
         "translations": {
             "arb": "أَوَّل"
+            "jpn":"アッワル",
+        }
     },
     {
         "name": "Josef",
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
-            "ces": "Josef"
+            "ces": "Josef",
+            "jpn":"ジョセフ"
         }
     },
     {
@@ -96,5 +106,12 @@
         "translations": {
           "hin": "रोशन"
         }
+    },
+    {
+        "name": "Michelle",
+        "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
+        "translations": {
+            "spa": "Micaela"
+        }      
     }
 ]
