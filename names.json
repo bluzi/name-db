@@ -88,9 +88,10 @@
         "name": "Awwal",
         "meaning" : "Arabic for \"First\"",
         "translations": {
-            "ar": "أَوَّل",
             "jpn":"アッワル"
-    }
+            "arb": "أَوَّل"
+        }
+    },
     {
         "name": "Josef",
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
@@ -98,5 +99,12 @@
             "ces": "Josef",
             "jpn":"ジョセフ"
         }
+    },
+    {
+        "name": "Michelle",
+        "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
+        "translations": {
+            "spa": "Micaela"
+        }      
     }
 ]
