@@ -170,7 +170,7 @@
         }
     },
     {
-        "name": "Lucius", 
+        "name": "Lucius",
         "meaning": "derived from Latin lux \"light\"",
         "translations": {
             "fra": "Luc",
@@ -194,7 +194,7 @@
         "translations": {
           "per": "سردار",
           "tur": "Serdar",
-          "tkm": "Serdar"   
+          "tkm": "Serdar"
         }
     },
     {
@@ -211,7 +211,7 @@
         "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
         "translations": {
             "spa": "Micaela"
-        }      
+        }
     },
     {
         "name": "Matan",
@@ -219,11 +219,11 @@
         "translations": {
             "heb": "מתן",
             "fra": "Mattan"
-        }      
+        }
     },
     {
         "name": "Ian",
-        "meaning":  "Scottish for \"God is gracious\"",  
+        "meaning":  "Scottish for \"God is gracious\"",
         "translations": {
             "fra": "Yan"
         }
@@ -249,7 +249,17 @@
         "meaning": "Strong or bold",
         "translations": {
             "per": "بلیک",
-            "jpn": "ブレイク"
+            "jpn": "ブレイク",
+            "rus": "Блэйк",
+            "ukr": "Блейк"
+        }
+    },
+    {
+        "name": "Igor",
+        "meaning": "Norse for \"God Ingva's fighter\"",
+        "translations": {
+            "rus": "Игорь",
+            "ukr": "Iгор"
         }
     }
 ]
