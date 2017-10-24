@@ -300,5 +300,14 @@
         "meaning": "Feminine of Julius, Latin for \"youthful\"",
         "translations": {
         }
+    },
+    {
+      "name": "Mark",
+      "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
+      "translations": {
+        "eng": "Mark",
+        "rus": "Марк",
+        "spa": "Marcos"
+      }
     }
 ]
