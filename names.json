@@ -425,5 +425,19 @@
             "por": "Toma",
             "rms": "Thomas"
         }
+    },
+    {
+        "name": "Saurabh",
+        "meaning": "Fragnance",
+        "translations": {
+            "hin": "सौरभ"
+        }
+    },
+    {
+        "name": "Sagar",
+        "meaning": "Ocean",
+        "translations": {
+            "hin": "सागर"
+        }
     }
 ]
