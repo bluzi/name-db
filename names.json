@@ -61,6 +61,7 @@
         "meaning": "Masculine form. Hewbrew for \"God is my Judge\". Derived from the bibical figures of Daniel.",
         "translations": {
             "ara": "دَانْيَال",
+            "fra": "Daniel",
             "heb": "דָּנִיֵּאל",
             "ita": "Daniele",
             "jpn": "ダニエル",
@@ -173,6 +174,8 @@
         "name": "Benjamin",
         "meaning": "Hebrew for \"son of the south\" or \"son of the right hand\"",
         "translations": {
+            "fra": "Benjamin",
+            "deu": "Benjamin",
             "heb": "בנג'מין",
             "rus": "Бенджамен",
             "deu": "Benjamin"
@@ -220,6 +223,7 @@
         "name": "Michelle",
         "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
         "translations": {
+            "fra": "Michelle",
             "spa": "Micaela",
             "por": "Michele",
             "deu": "Michael"
@@ -252,6 +256,7 @@
     	"name": "Gabriel",
     	"meaning": "Hebrew for \"God is my strength\"",
     	"translations": {
+            "fra": "Gabriel",
     		"fin": "Kaapo",
     		"rus": "Gavril",
     		"spa": "Gabian",
@@ -310,6 +315,7 @@
         "name": "Juliana",
         "meaning": "Feminine of Julius, Latin for \"youthful\"",
         "translations": {
+            "fra": "Julie",
             "deu": "Julia"
         }
     },
@@ -317,6 +323,7 @@
       "name": "Mark",
       "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
       "translations": {
+        "fra": "Marc",
         "rus": "Марк",
         "spa": "Marcos",
          "deu": "Mark"
@@ -346,17 +353,18 @@
         }
     },
     {
-    "name": "Maurice",
-    "meaning": "Man from Mauritania",
-    "translations": {
-        "deu": "Moritz",
-        "ita": "Maurizio"
-    }
-},
-    {
-        "name": "Rajesh",
-        "meaning": "God of kings",
+        "name": "Maurice",
+        "meaning": "Man from Mauritania",
         "translations": {
+            "fra": "Maurice",
+            "deu": "Moritz",
+            "ita": "Maurizio"
+        }
+    },
+    {		
+        "name": "Rajesh",		
+        "meaning": "God of kings",		
+        "translations": {		
             "hin": "राजेश"
         }
     }
