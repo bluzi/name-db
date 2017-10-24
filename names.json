@@ -1,94 +1,101 @@
 [
-  {
-		"name": "Adam",
-		"meaning": "Hebrew for \"The ground or earth\"",
-		"translations": {
-			"ara": "آدم",
-			"hye": "Ադամ",
-			"bel": "Адам",
-			"ben": "আদম",
-			"bul": "Адам",
-			"zho": "亚当",
-			"ces": "Adam",
-			"ell": "Αδάμ",
-			"guj": "આદમ",
-			"heb": "אדם",
-			"hin": "आदम",
-			"hun": "Ádám",
-			"ita": "Adamo",
-			"jpn": "アダム",
-			"kan": "ಆಡಮ್",
-			"kor": "아담",
-			"lao": "ອາດາມ",
-			"lat": "Adamus",
-			"lit": "Adomas",
-			"mri": "Arama",
-			"mon": "Адам",
-			"nep": "आदम",
-			"pol": "Adam",
-			"por": "Adão",
-			"rus": "Адам",
-			"srp": "Adam",
-			"gla": "Adhamh",
-			"som": "Aden",
-			"spa": "Adán",
-			"swa": "Adamu",
-			"tam": "ஆதாம்",
-			"tha": "อาดัม",
-			"tur": "Adem",
-			"ukr": "Адам",
-			"uzb": "Odam",
-			"vie": "ÁĐàm",
-			"yid": "Adi"
-		}
-	},
-	{
-		"name": "Eliran",
-		"meaning": "Hebrew for \"God is pleased\"",
-		"translations": {
-			"heb": "אלירן"
-		}
-	},
-	{
-		"name": "Jasper",
-		"meaning": "Persian for \"Treasurer\"",
-		"translations": {
-			"per": "یشم"
-		}
-	},
-	{
-		"name": "Emily",
-		"meaning": "Latin for \"rival\"",
-		"translations": {
-			"lat": "Aemilia"
-		}
-	},
-	{
-		"name": "Kelly",
-		"meaning": "Irish for \"fighter\"",
-		"translations": {
-			"gle": "Ó Ceallaigh"
-		}
-	},
-	{
-		"name": "Mei",
-		"meaning": "chinese for \"Plum\"",
-		"translations": {
-			"chi": "中文"
-		}
-	},
-	{
-		"name": "Awwal",
-		"meaning": "Arabic for \"First\"",
-		"translations": {
-			"arb": "أَوَّل"
-		}
-	},
-	{
-		"name": "Josef",
-		"meaning": "Hebrew for \"He will enlarge, God will increase\"",
-		"translations": {
-			"ces": "Josef"
-		}
-	}
+    {
+        "name": "Adam",
+        "meaning": "Hebrew for \"The ground or earth\"",
+        "translations": {
+            "ara":"آدم",
+            "hye":"Ադամ",
+            "bel":"Адам",
+            "ben":"আদম",
+            "bul":"Адам",
+            "zho":"亚当",
+            "ces":"Adam",
+            "ell":"Αδάμ",
+            "guj":"આદમ",
+            "heb":"אדם",
+            "hin":"आदम",
+            "hun":"Ádám",
+            "ita":"Adamo",
+            "jpn":"アダム",
+            "kan":"ಆಡಮ್",
+            "kor":"아담",
+            "lao":"ອາດາມ",
+            "lat":"Adamus",
+            "lit":"Adomas",
+            "mri":"Arama",
+            "mon":"Адам",
+            "nep":"आदम",
+            "pol":"Adam",
+            "por":"Adão",
+            "rus":"Адам",
+            "srp":"Adam",
+            "gla":"Adhamh",
+            "som":"Aden",
+            "spa":"Adán",
+            "swa":"Adamu",
+            "tam":"ஆதாம்",
+            "tha":"อาดัม",
+            "tur":"Adem",
+            "ukr":"Адам",
+            "uzb":"Odam",
+            "vie":"ÁĐàm",
+            "yid":"Adi"
+        }
+    },
+    {
+        "name": "Eliran",
+        "meaning": "Hebrew for \"God is pleased\"",
+        "translations": {
+            "heb": "אלירן"
+        }
+    },
+    {
+        "name": "Jasper",
+        "meaning": "Persian for \"Treasurer\"",
+        "translations": {
+            "per": "یشم"
+        }
+    },
+    {
+        "name": "Emily",
+        "meaning": "Latin for \"rival\"",
+        "translations": {
+            "lat": "Aemilia"
+        }
+    },
+    {
+        "name": "Kelly",
+        "meaning": "Irish for \"fighter\"",
+        "translations": {
+            "gle": "Ó Ceallaigh"
+        }
+    },
+    {
+        "name": "Mei",
+        "meaning": "chinese for \"Plum\"",
+        "translations": {
+            "chi": "中文"
+        }
+    },
+    {
+        "name": "Awwal",
+        "meaning" : "Arabic for \"First\"",
+        "translations": {
+            "arb": "أَوَّل"
+        }
+    },
+    {
+        "name": "Josef",
+        "meaning": "Hebrew for \"He will enlarge, God will increase\"",
+        "translations": {
+            "ces": "Josef"
+        }
+    },
+    {
+        "name": "Michelle",
+        "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
+        "translations": {
+            "spa": "Micaela"
+        }      
+    }
 ]
