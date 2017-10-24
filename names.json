@@ -81,20 +81,20 @@
         "name": "Awwal",
         "meaning" : "Arabic for \"First\"",
         "translations": {
-            "ar": "أَوَّل"
-    }
+            "arb": "أَوَّل"
+    },
     {
         "name": "Josef",
         "meaning": "Hebrew for \"He will enlarge, God will increase\"",
         "translations": {
             "ces": "Josef"
         }
-    }
+    },
     {
-      "name": "Roshan",
-      "meaning": "Hindi for \"Light\" ",
-      "translations": {
+        "name": "Roshan",
+        "meaning": "Hindi for \"Light\" ",
+        "translations": {
           "hin": "रोशन"
+        }
     }
-}
 ]
