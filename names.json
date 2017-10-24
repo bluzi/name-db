@@ -8,7 +8,8 @@
             "ces":"Bazalka",
             "guj":"વૃંદા",
             "hin":"वृंदा",
-            "nep":"वृंदा"
+            "nep":"वृंदा",
+            "kan":"ವೃಂದಾ"
         }
     },
     {
@@ -68,7 +69,8 @@
             "rus": "Дании́л",
             "hin": "डेन्यल",
             "por": "Daniel",
-            "deu": "Daniel"
+            "deu": "Daniel",
+            "kan":"ಡೇನಿಯಲ್"
         }
     },
     {
@@ -81,7 +83,8 @@
             "spa": "André",
             "hin": "एंडी",
             "por": "André",
-            "deu":"Anreas"
+            "deu":"Anreas",
+            "kan":"ಆಂಡಿ"
         }
     },
     {
@@ -89,7 +92,8 @@
         "meaning": "Hebrew for \"God is pleased\"",
         "translations": {
             "heb": "אלירן",
-            "jpn":"エリーラン"
+            "jpn":"エリーラン",
+            "kan":"ಎಲಿರಾನ್"
 
         }
     },
@@ -102,7 +106,8 @@
             "per": "یشم",
             "slv": "Jasper",
             "heb": "קספר",
-            "hin": "जैस्पर"
+            "hin": "जैस्पर",
+            "kan": "ಜಾಸ್ಪರ್"
         }
     },
     {
@@ -114,7 +119,8 @@
             "lat": "Aemilia",
             "slv": "Emilija",
             "heb": "אמילי",
-            "por": "Emilia"
+            "por": "Emilia",
+            "kan": "ಎಮಿಲಿ"
         }
     },
     {
@@ -123,7 +129,8 @@
         "translations": {
             "gle": "Ó Ceallaigh",
             "jpn":"ケリー",
-            "heb": "קלי"
+            "heb": "קלי",
+            "kan":"ಕೆಲ್ಲಿ"
         }
     },
     {
