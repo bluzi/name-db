@@ -170,7 +170,7 @@
         }
     },
     {
-        "name": "Lucius", 
+        "name": "Lucius",
         "meaning": "derived from Latin lux \"light\"",
         "translations": {
             "fra": "Luc",
@@ -194,7 +194,7 @@
         "translations": {
           "per": "سردار",
           "tur": "Serdar",
-          "tkm": "Serdar"   
+          "tkm": "Serdar"
         }
     },
     {
@@ -211,7 +211,7 @@
         "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
         "translations": {
             "spa": "Micaela"
-        }      
+        }
     },
     {
         "name": "Matan",
@@ -219,11 +219,11 @@
         "translations": {
             "heb": "מתן",
             "fra": "Mattan"
-        }      
+        }
     },
     {
         "name": "Ian",
-        "meaning":  "Scottish for \"God is gracious\"",  
+        "meaning":  "Scottish for \"God is gracious\"",
         "translations": {
             "fra": "Yan"
         }
@@ -250,6 +250,13 @@
         "translations": {
             "per": "بلیک",
             "jpn": "ブレイク"
+        }
+    },
+    {
+        "name": "Dave",
+        "meaning": "Beloved or friend, adopted from Hebrew",
+        "translations": {
+            "afr": "Dawid"
         }
     },
     {
