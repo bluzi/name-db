@@ -447,5 +447,12 @@
         "translations": {
             "hin": "सागर"
         }
+    },
+    {
+        "name": "Duncan",
+        "meaning": "Dark warrior",
+        "translations": {
+            "ghc": "Donnchadh"
+        }
     }
 ]
