@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "name": "Vrunda",
         "meaning": "Hebrew for \"Basil\"",
@@ -76,7 +76,8 @@
             "fra": "André",
             "grk": "Ανδρέας",
             "spa": "André",
-            "hin": "एंडी"
+            "hin": "एंडी",
+            "por": "André"
         }
     },
     {
@@ -108,7 +109,8 @@
             "jpn":"エミリー",
             "lat": "Aemilia",
             "slv": "Emilija",
-            "heb": "אמילי"
+            "heb": "אמילי",
+            "por": "Emília"
         }
     },
     {
@@ -146,7 +148,8 @@
             "jpn":"ジョセフ",
             "slv": "Jožef",
             "heb": "יוסף",
-            "arb": "جوزف"
+            "arb": "جوزف",
+            "por": "José"
         }
     },
     {
@@ -158,7 +161,8 @@
             "ita": "Ginevra",
             "kor": "제니퍼",
             "wlm": "Gwenhwyfar",
-            "hin": "जेनिफर"
+            "hin": "जेनिफर",
+            "por": "Jenifer"
         }
     },
     {
@@ -210,7 +214,8 @@
         "name": "Michelle",
         "meaning": "Feminine of Michael, Hebrew for \"Who is like God?\"",
         "translations": {
-            "spa": "Micaela"
+            "spa": "Micaela",
+            "por": "Michele"
         }      
     },
     {
