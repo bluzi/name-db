@@ -149,6 +149,15 @@
         }
     },
     {
+        "name": "Serdar",
+        "meaning": "Turkmen for \"Chieftain\"",
+        "translations": {
+          "per": "سردار",
+          "tur": "Serdar",
+          "tkm": "Serdar"   
+        }
+    },
+    {
         "name": "Patrick",
         "meaning": "Irish for \"Noble\"",
         "translations": {
