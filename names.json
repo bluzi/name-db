@@ -324,5 +324,12 @@
         "slv": "Julij",
         "spa": "Julio"
       }
-    }
-]
+    },
+    {
+        "name": "Vishwas",
+        "meaning": "Hindi for \"Trust\"",
+        "translations": {
+            "eng": "Vishwas",
+            "hin": "विश्वास"
+        }
+    }]
