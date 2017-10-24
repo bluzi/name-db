@@ -58,7 +58,8 @@
         "translations": {
             "jpn":"ジャスパー",
             "per": "یشم",
-            "slv": "Jasper"
+            "slv": "Jasper",
+            "heb": "קספר"
         }
     },
     {
@@ -67,8 +68,8 @@
         "translations": {
             "jpn":"エミリー",
             "lat": "Aemilia",
-            "slv": "Emilija"
-            
+            "slv": "Emilija",
+            "heb": "אמילי"
         }
     },
     {
@@ -76,7 +77,8 @@
         "meaning": "Irish for \"fighter\"",
         "translations": {
             "gle": "Ó Ceallaigh",
-            "jpn":"ケリー"
+            "jpn":"ケリー",
+            "heb": "קלי"
         }
     },
     {
@@ -84,7 +86,8 @@
         "meaning": "chinese for \"Plum\"",
         "translations": {
             "chi": "中文",
-            "jpn":"メイ"
+            "jpn":"メイ",
+            "heb": "מיי"
         }
     },
     {
@@ -101,7 +104,8 @@
         "translations": {
             "ces": "Josef",
             "jpn":"ジョセフ",
-            "slv": "Jožef"
+            "slv": "Jožef",
+            "heb": "יוסף"
         }
     },
     {
