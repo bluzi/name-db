@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/bluzi/name-db.svg?branch=master)](https://travis-ci.org/bluzi/name-db)
+
 ## name-db
 *name-db* is a collection of names in all languages. Our goal is to collect as much data as we can, and to provide an open-source free API for name translations.
 
