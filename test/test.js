@@ -19,6 +19,23 @@ describe('name files', () => {
             done();
         })();
     });
+
+    it('should not have duplicate names', done => {
+        (async () => {
+            const files = await fs.readdir('./collection');
+            const names = [];
+
+            for (const fileName of files) {
+                const contents = await fs.readFile('./collection/' + fileName);
+                var json = JSON.parse(contents);
+                names.push(json.name);
+            }
+
+            var isDuplicate = (new Set(names).size !== names.length);
+            assert.equal(isDuplicate, false);
+            done();
+        })();
+    });
 });
 
 describe('schema specifications', () => {
