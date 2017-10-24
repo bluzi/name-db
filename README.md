@@ -7,12 +7,16 @@
 
 **`names.json` is *deprecated*.**
 
-From now on, names are stored in *collection/* directory. Each name has a seperated file. 
+From now on, names are stored in `collection/` directory.
+
+Each name has a seperated file. 
 The structure of the name object is the same.
 
 ## Specs
+
 *name-db* currently stores only **first names**.
-Each name is stored in a JSON file, located in *collection/*. The following is the structure of a name file:
+
+Each name is stored in a JSON file, located in `collection/`. The following is the structure of a name file:
 
 **`collection/{lowercase name}.json:`**
 
