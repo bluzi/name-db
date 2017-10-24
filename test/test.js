@@ -51,7 +51,6 @@ describe('names.json', function () {
                 }
             };
 
-
             fs.readFile("./names.json", function (err, text) {
                 if (err) done(err);
                 var json = JSON.parse(text);
