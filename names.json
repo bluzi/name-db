@@ -73,7 +73,6 @@
         "name": "Andy",
         "meaning": "Greek for \"Manly or brave\"",
         "translations": {
-            "eng": "Andrew",
             "fra": "André",
             "grk": "Ανδρέας",
             "spa": "André",
@@ -279,7 +278,6 @@
         "name": "Max",
         "meaning": "Short for Maximilian. Which is derived from Maximus that in latin means \"the greatest\"",
         "translations": {
-            "eng": "Max",
             "swe": "Max"
         }
     },
@@ -305,7 +303,6 @@
       "name": "Mark",
       "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
       "translations": {
-        "eng": "Mark",
         "rus": "Марк",
         "spa": "Marcos"
       }
