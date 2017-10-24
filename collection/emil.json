@@ -1,6 +1,9 @@
 {
     "name": "emil",
     "meaning": "Latin for \"rival\"",
+    "aliases": [
+        "Em"
+    ],
     "translations": {
         "fra": "Émile",
         "jpn": "エミール",
