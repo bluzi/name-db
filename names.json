@@ -411,5 +411,19 @@
         "translations": {
             "spa": "Clayton"
         }
+    },
+    {
+        "name": "Thomas",
+        "meaning": "Hebrew for \"Twin\"",
+        "translations": {
+            "gct": "Thomas",
+            "dse": "Thomas",
+            "lat": "Thomas",
+            "fre": "Thomas",
+            "ise": "Tommaso",
+            "spa": "Tomás",
+            "por": "Toma",
+            "rms": "Thomas"
+        }
     }
 ]
