@@ -90,4 +90,12 @@
             "ces": "Josef"
         }
     }
+     {
+        "name": "Patrick",
+        "meaning": "Irish for \"Noble\"",
+        "translations": {
+            "lat": "Patricius"
+            "spa": "Patricio"
+        }
+    }
 ]
