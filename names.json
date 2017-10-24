@@ -234,5 +234,14 @@
         "translations": {
             "hin": "पारस"
         }
+    },
+    {
+    	"name": "Gabriel",
+    	"meaning": "Hebrew for \"God is my strength\"",
+    	"translations": {
+    		"fin": "Kaapo",
+    		"rus": "Gavril",
+    		"spa": "Gabian"
+    	}
     }
 ]
