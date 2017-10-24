@@ -216,5 +216,12 @@
         "meaning":  "Scottish for \"God is gracious\"",  
         "translations": {
         }
+    },
+    {
+        "name": "Paras",
+        "meaning": "Hindi for \"Touchstone\"",
+        "translations": {
+            "hin": "पारस"
+        }
     }
 ]
