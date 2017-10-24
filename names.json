@@ -9,7 +9,7 @@
             "guj": "વૃંદા",
             "hin": "वृंदा",
             "nep": "वृंदा",
-            "kan":"ವೃಂದಾ"
+            "pol": "Bazylia"
         }
     },
     {
@@ -54,8 +54,7 @@
             "uzb": "Odam",
             "vie": "ÁĐàm",
             "yid": "Adi",
-            "deu": "Adam",
-            "kan": "ಆಡಮ್"
+            "deu": "Adam"
         }
     },
     {
@@ -70,9 +69,9 @@
             "lit": "Danielis",
             "rus": "Дании́л",
             "hin": "डेन्यल",
+            "pol": "Daniel",
             "por": "Daniel",
-            "deu": "Daniel",
-            "kan":"ಡೇನಿಯಲ್"
+            "deu": "Daniel"
         }
     },
     {
@@ -83,9 +82,9 @@
             "grk": "Ανδρέας",
             "spa": "André",
             "hin": "एंडी",
+            "pol": "Andrzej",
             "por": "André",
-            "deu": "Anreas",
-            "kan":"ಆಂಡಿ"
+            "deu": "Anreas"
         }
     },
     {
@@ -94,7 +93,6 @@
         "translations": {
             "heb": "אלירן",
             "jpn": "エリーラン",
-            "kan":"ಎಲಿರಾನ್"
         }
     },
     {
@@ -106,8 +104,7 @@
             "per": "یشم",
             "slv": "Jasper",
             "heb": "קספר",
-            "hin": "जैस्पर",
-            "kan": "ಜಾಸ್ಪರ್"
+            "hin": "जैस्पर"
         }
     },
     {
@@ -119,8 +116,8 @@
             "lat": "Aemilia",
             "slv": "Emilija",
             "heb": "אמילי",
-            "por": "Emilia",
-            "kan": "ಎಮಿಲಿ"
+            "pol": "Emilia",
+            "por": "Emilia"
         }
     },
     {
@@ -130,7 +127,7 @@
             "gle": "Ó Ceallaigh",
             "jpn": "ケリー",
             "heb": "קלי",
-            "kan":"ಕೆಲ್ಲಿ"
+            "pol": "Wojciech"
         }
     },
     {
@@ -160,6 +157,7 @@
             "slv": "Jožef",
             "heb": "יוסף",
             "arb": "جوزف",
+            "pol": "Józef",
             "por": "José",
             "deu": "Josef"
         }
@@ -184,6 +182,7 @@
             "fra": "Benjamin",
             "deu": "Benjamin",
             "heb": "בנג'מין",
+            "pol": "Benjamin",
             "rus": "Бенджамен"
         }
     },
@@ -432,20 +431,6 @@
             "spa": "Tomás",
             "por": "Toma",
             "rms": "Thomas"
-        }
-    },
-    {
-        "name": "Saurabh",
-        "meaning": "Fragnance",
-        "translations": {
-            "hin": "सौरभ"
-        }
-    },
-    {
-        "name": "Sagar",
-        "meaning": "Ocean",
-        "translations": {
-            "hin": "सागर"
         }
     }
 ]
