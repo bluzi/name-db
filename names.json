@@ -352,18 +352,20 @@
     "name": "Maurice",
     "meaning": "Man from Mauritania",
     "translations": {
-        "deu": "Moritz",
-        "ita": "Maurizio"
+            "deu": "Moritz",
+            "ita": "Maurizio"
+        }
     },
     {
     "name": "Sophia",
     "meaning": "Greek for \"wisdom\"",
     "translations": {
-        "fra": "Sofie",
-        "deu": "Sofia",
-        "pol": "Sophię",
-        "ron": "Sophiei",
-        "rus": "София"
+            "fra": "Sofie",
+            "deu": "Sofia",
+            "pol": "Sophię",
+            "ron": "Sophiei",
+            "rus": "София"
+        }
     }
 }
 ]
