@@ -62,6 +62,10 @@ describe('name files', () => {
                     'required': true,
                     'type': 'string'
                 },
+                'alias': {
+                    'required': false,
+                    'type': 'array'
+                },
                 'translations': {
                     'type': 'object',
                     'patternProperties': {
