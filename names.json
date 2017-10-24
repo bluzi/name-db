@@ -9,7 +9,7 @@
             "guj": "વૃંદા",
             "hin": "वृंदा",
             "nep": "वृंदा",
-            "kan":"ವೃಂದಾ"
+            "kan": "ವೃಂದಾ"
         }
     },
     {
@@ -72,7 +72,7 @@
             "hin": "डेन्यल",
             "por": "Daniel",
             "deu": "Daniel",
-            "kan":"ಡೇನಿಯಲ್"
+            "kan": "ಡೇನಿಯಲ್"
         }
     },
     {
@@ -85,7 +85,7 @@
             "hin": "एंडी",
             "por": "André",
             "deu": "Anreas",
-            "kan":"ಆಂಡಿ"
+            "kan": "ಆಂಡಿ"
         }
     },
     {
@@ -94,7 +94,7 @@
         "translations": {
             "heb": "אלירן",
             "jpn": "エリーラン",
-            "kan":"ಎಲಿರಾನ್"
+            "kan": "ಎಲಿರಾನ್"
         }
     },
     {
@@ -130,7 +130,7 @@
             "gle": "Ó Ceallaigh",
             "jpn": "ケリー",
             "heb": "קלי",
-            "kan":"ಕೆಲ್ಲಿ"
+            "kan": "ಕೆಲ್ಲಿ"
         }
     },
     {
@@ -446,6 +446,20 @@
         "meaning": "Ocean",
         "translations": {
             "hin": "सागर"
+        }
+    },
+    {
+        "name": "Alexander",
+        "meaning": "Greek for \"Defending men\"",
+        "transaltions": {
+            "pol": "Aleksander"
+        }
+    },
+    {
+        "name": "Martin",
+        "meaning": "derived form of the name of the Roman god Mars",
+        "transaltions": {
+            "pol": "Marcin"
         }
     },
     {
