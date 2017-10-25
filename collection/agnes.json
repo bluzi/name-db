@@ -1,7 +1,9 @@
 {
     "name": "Agnes",
     "meaning": "Female name that means \"Pure\" or \"Holy\"",
+    "aliases": ["agnes", "ines"],
     "translations": {
-        "por": "Inês"
+        "por": "Inês",
+        "spa": "Inês"
     }
 }
