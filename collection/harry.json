@@ -1,5 +1,5 @@
 {
-    "name": "Harry",
+    "name": "harry",
     "meaning": {
       "English": "Rules the home",
       "German": "Home ruler",
@@ -7,6 +7,5 @@
       "Teutonic": "Mighty in war"
     },
     "translations": {
-      // Only seems to be translated to Harry
     }
 }
