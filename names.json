@@ -11,6 +11,23 @@
             "nep": "वृंदा",
             "kan":"ವೃಂದಾ"
         }
+    },    {
+        "name": "Michael",
+        "meaning": "Hebrew for \"Who is like God?\"",
+        "translations": {
+            "fra": "Michel",
+            "grk": "Mikhail",
+            "spa": "Miguel",
+            "por": "Miguel"
+        }
+    },
+    {
+        "name": "Samantha",
+        "meaning": "Feminine of Samuel, Hebrew for \"God heard\"",
+        "translations": {
+            "ita": "Samanta",
+           "arb": "سامنتا"
+        }
     },
     {
         "name": "Adam",
