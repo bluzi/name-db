@@ -1,4 +1,4 @@
-{
+﻿{
     "name": "sophia",
     "meaning": "Greek for \"wisdom\"",
     "translations": {
@@ -7,6 +7,7 @@
         "pol": "Zofia",
         "ron": "Sophiei",
         "rus": "София",
-        "aze": "Sofia"
+        "aze": "Sofia",
+	"spa": "Sofia"
     }
 }
