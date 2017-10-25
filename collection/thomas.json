@@ -1,11 +1,15 @@
 {
     "name": "thomas",
     "meaning": "Hebrew for \"Twin\"",
+    "aliases": [
+        "tom",
+        "tommy"
+    ],
     "translations": {
         "gct": "Thomas",
         "dse": "Thomas",
         "lat": "Thomas",
-        "fre": "Thomas",
+        "fra": "Thomas",
         "ise": "Tommaso",
         "spa": "Tomás",
         "por": "Toma",
