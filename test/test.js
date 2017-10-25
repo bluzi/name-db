@@ -2,6 +2,7 @@ const assert = require('assert');
 const fs = require('fs-extra');
 const Validator = require('jsonschema').Validator;
 const path = require('path');
+const langs = require('langs');
 
 const files = fs.readdirSync('./collection');
 
@@ -43,6 +44,22 @@ describe('name files', () => {
 
         var isDuplicate = (new Set(names).size !== names.length);
         assert.equal(isDuplicate, false);
+        done();
+    });
+
+    it('should have valid language code', done => {
+        const ISOcodes = langs.codes("3")
+
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            var languageCodes = JSON.parse(contents).translations == null ? new Array() :
+            Object.keys(JSON.parse(contents).translations);
+
+            var languageCodesPresent = languageCodes
+                                      .every((code) => {return ISOcodes.indexOf(code) >= 0})
+            assert.equal(languageCodesPresent,true);
+        }
+
         done();
     });
 
