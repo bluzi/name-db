@@ -19,18 +19,16 @@ describe('name files', () => {
         done();
     });
 
-    it('should contain a lowercase name, same as the filename', function(done) {
+    it('should contain a lowercase name, same as the filename', function() {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
             const json = JSON.parse(contents);
             assert.ok(json.name === json.name.toLowerCase(), 'name is not lowercase');
             assert.ok(json.name === path.basename(fileName, '.json'), 'fileName should match the name');
         }
-
-        done();
     });
 
-    it('should not have duplicate names', function(done) {
+    it('should not have duplicate names', function() {
         const names = [];
 
         for (const fileName of files) {
@@ -41,10 +39,9 @@ describe('name files', () => {
 
         var isDuplicate = (new Set(names).size !== names.length);
         assert.equal(isDuplicate, false);
-        done();
     });
 
-    it('should have ISO-639-3 language codes', function(done) {
+    it('should have ISO-639-3 language codes', function() {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
             const json = JSON.parse(contents);
@@ -57,7 +54,6 @@ describe('name files', () => {
                 }
             }
         }
-        done();
     });
 
     it('should have correct structure', function(done) {
