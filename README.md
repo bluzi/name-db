@@ -1,15 +1,15 @@
-[![Build Status](https://travis-ci.org/bluzi/name-db.svg?branch=master)](https://travis-ci.org/bluzi/name-db)
+﻿[![Build Status](https://travis-ci.org/bluzi/name-db.svg?branch=master)](https://travis-ci.org/bluzi/name-db)
 
 # name-db
 > `name-db` is a collection of names in all languages. Our goal is to collect as much data as we can, and to provide an open-source free API for name translations.
 
-## Important notice for returning contributiors
-
+# Important notice for returning contributors
 **`names.json` is *deprecated*.**
 
 From now on, names are stored in `collection/` directory.
 
-Each name has a seperated file. 
+Each name has a separated file. 
+
 The structure of the name object is the same.
 
 ## Specs
@@ -26,7 +26,7 @@ Each name is stored in a JSON file, located in `collection/`. The following is t
     "meaning": "", // The meaning of the name, in English
     "aliases": [], // An array of lowercase alias names, such as: richard -> dick, daniel -> dan, etc.
     "translations": {
-        "{loewrcase ISO-639-3 language code}": "{translation}" 
+        "{lowercase ISO-639-3 language code}": "{translation}" 
     }
 }
 ``` 
