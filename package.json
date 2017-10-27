@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "name-db is a collection of names in all languages. Our goal is to collect as much data as we can, and to provide an open-source free API for name translations.",
   "scripts": {
+    "start": "node ./api/bin/www",
     "test": "mocha"
   },
   "repository": {
@@ -15,13 +16,17 @@
   "homepage": "https://github.com/bluzi/name-db#readme",
   "devDependencies": {
     "fs-extra": "^4.0.2",
-    "iso-639-3": "^1.0.1",
     "jsonschema": "^1.2.0",
     "mocha": "^4.0.1",
-    "path": "^0.12.7",
-    "mysql": "^2.15.0"
+    "path": "^0.12.7"
   },
   "dependencies": {
-    
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "iso-639-3": "^1.0.1",
+    "express": "~4.15.5",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0"
   }
 }
