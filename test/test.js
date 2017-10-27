@@ -22,7 +22,7 @@ describe('name files', () => {
         })();
     });
 
-    it('should contain a lowercase name, same as the filename', done => {
+    it('should contain a lowercase name, same as the filename', () => {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
             const json = JSON.parse(contents);
@@ -30,10 +30,9 @@ describe('name files', () => {
             assert.ok(json.name === path.basename(fileName, '.json'), 'fileName should match the name');
         }
 
-        done();
     });
 
-    it('should not have duplicate names', done => {
+    it('should not have duplicate names', () => {
         const names = [];
 
         for (const fileName of files) {
@@ -44,7 +43,6 @@ describe('name files', () => {
 
         var isDuplicate = (new Set(names).size !== names.length);
         assert.equal(isDuplicate, false);
-        done();
     });
 
     it('should have ISO-639-3 language codes', () => {
@@ -62,7 +60,7 @@ describe('name files', () => {
         }
     });
 
-    it('should have correct structure', done => {
+    it('should have correct structure', () => {
         const jsonValidator = new Validator();
 
         // create the schema for valid name objects
@@ -105,10 +103,8 @@ describe('name files', () => {
                 // Ensure there are no validation errors
                 assert.equal(validationResult.errors.length, 0);
             } catch (err) {
-                done(`Error in name file "${fileName}":\n${err}`);
+                assert.fail(`Error in name file "${fileName}":\n${err}`);
             }
         }
-
-        done();
     });
 });
