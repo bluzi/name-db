@@ -8,20 +8,20 @@
       "Nikitos"
     ],
     "translations": {
-        "bel":"Мікіта",
-        "ell":"Νικήτας",
+        "bel":"мікіта",
+        "ell":"νικήτας",
         "kat":"ნიკო",
         "kor":"nikitas",
-        "lat":"Nicetas",
-        "deu":"Nikita",
-        "pol":"Nicetas",
-        "ukr":"Микита",
+        "lat":"nicetas",
+        "deu":"nikita",
+        "pol":"nicetas",
+        "ukr":"микита",
         "fin":"nikitas",
-        "fra":"Nicétas",
-        "chv":"Мӗкӗте",
-        "chm":"Мигыта",
-        "udm":"Микта",
-        "rus": "Никита",
-        "mkd": "Никита"
+        "fra":"nicétas",
+        "chv":"мӗкӗте",
+        "chm":"мигыта",
+        "udm":"микта",
+        "rus": "никита",
+        "mkd": "никита"
     }
 }
