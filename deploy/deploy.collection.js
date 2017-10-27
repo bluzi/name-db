@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 const mysql = require('mysql');
-const dbCreds = require('../mysql.secret.json');
 const fs = require('fs');
 
 const collection = fs.readdirSync('collection/')
@@ -9,20 +8,22 @@ const collection = fs.readdirSync('collection/')
     .map(fileContents => JSON.parse(fileContents));
 
 const [ env, command, host, user, password, database ] = process.argv;
+const mysql_creds = {
+    host: host || process.env.host,
+    user: user || process.env.user,
+    password: password || process.env.password,
+    database: database || process.env.database,
+};
 
 const tasks = {
     pipe: [meanings, aliases, translations],
     next: () => tasks.pipe.length > 0 ? tasks.pipe.shift()() : db.end(err => err ? console.error(err.message) : console.log('Bye!')),
 }
 
-console.log(`trying to connect to ${user}@${host}/${database}...`)
 
-const db = mysql.createConnection({
-    host,
-    user,
-    password,
-    database,
-});
+const db = mysql.createConnection(mysql_creds);
+
+console.log(`trying to connect to ${mysql_creds.user}@${mysql_creds.host}/${mysql_creds.database}...`)
 
 db.connect(err => err ? console.error('failed. ' + err.message) : console.log('success\n') || tasks.next());
 
