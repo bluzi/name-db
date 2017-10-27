@@ -1,11 +1,9 @@
 {
     "name": "thomas",
     "meaning": "Hebrew for \"Twin\"",
-    "aliases": [
-        "tom",
-        "tommy"
-    ],
+    "aliases": ["tom", "tommy"],
     "translations": {
+        "afr": "Tomas",
         "gct": "Thomas",
         "dse": "Thomas",
         "lat": "Thomas",
@@ -16,7 +14,9 @@
         "rms": "Thomas",
         "pol": "Tomasz",
         "cmn": "托马斯",
+        "tha": "โทมัส",
         "ukr": "Томас",
-        "rus": "Томас"
+        "rus": "Томас",
+        "mkd": "Томас"
     }
 }
