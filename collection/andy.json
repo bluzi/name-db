@@ -6,12 +6,16 @@
     ],
     "translations": {
         "fra": "André",
-        "grk": "Ανδρέας",
+        "gmy": "Ανδρέας",
+        "ell": "Ανδρέας",
         "spa": "André",
         "hin": "एंडी",
         "por": "André",
         "deu": "Anreas",
         "kan": "ಆಂಡಿ",
-        "pol": "Andrzej"
+        "pol": "Andrzej",
+        "rus": "Андрей",
+		"tha": "แอนดี้",
+        "ukr": "Андрій"
     }
 }

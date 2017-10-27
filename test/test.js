@@ -2,6 +2,7 @@ const assert = require('assert');
 const fs = require('fs-extra');
 const Validator = require('jsonschema').Validator;
 const path = require('path');
+const iso6393 = require('iso-639-3');
 
 const files = fs.readdirSync('./collection');
 
@@ -44,6 +45,21 @@ describe('name files', () => {
         var isDuplicate = (new Set(names).size !== names.length);
         assert.equal(isDuplicate, false);
         done();
+    });
+
+    it('should have ISO-639-3 language codes', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+
+            for (const languageCode in json.translations) {
+                const lookup = iso6393.find(o => o.iso6393 == languageCode);
+
+                if (!lookup) {
+                    assert.fail(`${languageCode} is not a valid ISO-639-3 language code in ${fileName}`);
+                }
+            }
+        }
     });
 
     it('should have correct structure', done => {

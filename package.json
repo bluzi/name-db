@@ -15,6 +15,7 @@
   "homepage": "https://github.com/bluzi/name-db#readme",
   "devDependencies": {
     "fs-extra": "^4.0.2",
+    "iso-639-3": "^1.0.1",
     "jsonschema": "^1.2.0",
     "mocha": "^4.0.1",
     "path": "^0.12.7"
