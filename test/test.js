@@ -103,3 +103,22 @@ describe('name files', () => {
         }
     });
 });
+
+describe('Translations', () => {
+    it('should be lowercase', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const translations = json.translations || {};
+            const keys = Object.keys(translations)
+
+            const allLowerCase = keys.reduce(
+                (allLowerCase, key) => allLowerCase && (
+                    translations[key] === translations[key].toLowerCase()
+                ), true
+            );
+
+            assert.equal(allLowerCase, true);
+        }
+    })
+});
