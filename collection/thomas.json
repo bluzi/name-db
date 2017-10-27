@@ -3,20 +3,20 @@
     "meaning": "Hebrew for \"Twin\"",
     "aliases": ["tom", "tommy"],
     "translations": {
-        "afr": "Tomas",
-        "gct": "Thomas",
-        "dse": "Thomas",
-        "lat": "Thomas",
-        "fra": "Thomas",
-        "ise": "Tommaso",
-        "spa": "Tomás",
-        "por": "Toma",
-        "rms": "Thomas",
-        "pol": "Tomasz",
+        "afr": "tomas",
+        "gct": "thomas",
+        "dse": "thomas",
+        "lat": "thomas",
+        "fra": "thomas",
+        "ise": "tommaso",
+        "spa": "tomás",
+        "por": "toma",
+        "rms": "thomas",
+        "pol": "tomasz",
         "cmn": "托马斯",
         "tha": "โทมัส",
-        "ukr": "Томас",
-        "rus": "Томас",
-        "mkd": "Томас"
+        "ukr": "томас",
+        "rus": "томас",
+        "mkd": "томас"
     }
 }
