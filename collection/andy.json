@@ -1,9 +1,7 @@
 {
     "name": "andy",
     "meaning": "Greek for \"Manly or brave\"",
-    "aliases": [
-        "andrew"
-    ],
+    "aliases": ["andrew"],
     "translations": {
         "fra": "André",
         "gmy": "Ανδρέας",
@@ -15,6 +13,7 @@
         "deu": "Anreas",
         "kan": "ಆಂಡಿ",
         "pol": "Andrzej",
+        "tha": "แอนดี้",
         "rus": "Андрей",
 		"tha": "แอนดี้",
         "ukr": "Андрій"
