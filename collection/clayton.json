@@ -1,6 +1,9 @@
 {
     "name": "clayton",
     "meaning": "place with good clay",
+    "aliases": [
+        "clay"
+    ],
     "translations": {
         "spa": "Clayton"
     }
