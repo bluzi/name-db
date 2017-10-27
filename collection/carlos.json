@@ -1,8 +1,9 @@
 {
     "name": "carlos",
-    "meaning": "farmer, warrior", // The meaning of the name, in English
-    "aliases": ["carl"], // An array of lowercase alias names, such as: richard -> dick, daniel -> dan, etc.
+    "meaning": "farmer, warrior", 
+    "aliases": [
+        "carl"
+    ],
     "translations": {
-
     }
 }
