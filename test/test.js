@@ -7,33 +7,28 @@ const iso6393 = require('iso-639-3');
 const files = fs.readdirSync('./collection');
 
 describe('name files', () => {
-    it('should contain valid JSON', done => {
-        (async () => {
-            for (const fileName of files) {
-                try {
-                    const contents = fs.readFileSync('./collection/' + fileName);
-                    JSON.parse(contents);
-                } catch (err) {
-                    done(`Error in name file "${fileName}":\n${err}`);
-                }
+    it('should contain valid JSON', function(done) {
+        for (const fileName of files) {
+            try {
+                const contents = fs.readFileSync('./collection/' + fileName);
+                JSON.parse(contents);
+            } catch (err) {
+                done(`Error in name file "${fileName}":\n${err}`);
             }
-
-            done();
-        })();
+        }
+        done();
     });
 
-    it('should contain a lowercase name, same as the filename', done => {
+    it('should contain a lowercase name, same as the filename', function() {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
             const json = JSON.parse(contents);
             assert.ok(json.name === json.name.toLowerCase(), 'name is not lowercase');
             assert.ok(json.name === path.basename(fileName, '.json'), 'fileName should match the name');
         }
-
-        done();
     });
 
-    it('should not have duplicate names', done => {
+    it('should not have duplicate names', function() {
         const names = [];
 
         for (const fileName of files) {
@@ -44,10 +39,9 @@ describe('name files', () => {
 
         var isDuplicate = (new Set(names).size !== names.length);
         assert.equal(isDuplicate, false);
-        done();
     });
 
-    it('should have ISO-639-3 language codes', () => {
+    it('should have ISO-639-3 language codes', function() {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
             const json = JSON.parse(contents);
@@ -62,7 +56,7 @@ describe('name files', () => {
         }
     });
 
-    it('should have correct structure', done => {
+    it('should have correct structure', function(done) {
         const jsonValidator = new Validator();
 
         // create the schema for valid name objects
