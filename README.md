@@ -3,15 +3,6 @@
 # name-db
 > `name-db` is a collection of names in all languages. Our goal is to collect as much data as we can, and to provide an open-source free API for name translations.
 
-# Important notice for returning contributors
-**`names.json` is *deprecated*.**
-
-From now on, names are stored in `collection/` directory.
-
-Each name has a separated file. 
-
-The structure of the name object is the same.
-
 ## Specs
 
 *name-db* currently stores only **first names**.
