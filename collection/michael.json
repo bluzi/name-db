@@ -1,9 +1,16 @@
 {
-  "name": "michael",
-  "meaning": "Hebrew for \"Who is like God?\"",
-  "translations": {
-    "fra": "michel",
-    "spa": "miguel",
-    "por": "miguel"
-  }
+	"name": "michael",
+	"meaning": "Hebrew for \"Who is like God?\"",
+	"aliases": [
+		"mickey",
+		"mike",
+		"mikey",
+		"mitch"
+	],
+	"translations": {
+		"fra": "michel",
+		"jpn": "マイケル",
+		"spa": "miguel",
+		"por": "miguel"
+	}
 }
