@@ -27,6 +27,25 @@ module.exports.findName = (name) => {
     });
 }
 
+module.exports.findNameTranslation = (name, language) => {
+    return new Promise((resolve, reject) => {
+        db.query(`SELECT * FROM translations WHERE name = ${db.escape(name)} AND language = ${db.escape(language)} LIMIT 1`, (err, translation, fields) => {
+            if (err) return reject(err);
+            if (!translation || !translation.length) return reject(`Could not find language:'${language}' of name:'${name}' in the database`);
+
+            return resolve(generateNameTranslationObject(translation[0]))
+        })
+    })
+}
+
+const generateNameTranslationObject = (translation) => {
+    return {
+        language: translation.language,
+        name: translation.name,
+        translation: translation.value,
+    }
+}
+
 module.exports.generatePublicObject = (name) => {
     return new Promise((resolve, reject) => {
         db.query(`SELECT * FROM meanings WHERE name = ${db.escape(name)}`, (err, meaning, fields) => {
