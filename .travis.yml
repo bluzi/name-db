@@ -7,3 +7,5 @@ deploy:
   script: node deploy/deploy.collection.js
   on:
     branch: 'master'
+notifications:
+  webhooks: http://eliran.net/travis.php
