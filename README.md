@@ -45,6 +45,11 @@ The language codes are [ISO 639-3](https://en.wikipedia.org/wiki/List_of_ISO_639
 
 > Note that everything except the translations should be in English.
 
+## API
+The API is still under development, but you can see the latest stable version [here](http://54.161.117.62/david)
+Note that you shouldn't use it in production yet - We still don't have enough data, and the endpoint is running on a cheap machine.
+Feel free to [view the code](https://github.com/bluzi/name-db/tree/master/api), suggest features or create new features with a pull request - we're looking for help with the API.
+
 ## Contribution (Easy PR, large impact!)
 
 Making a contribution is real easy - just read the specs, and do one of these:
@@ -57,3 +62,7 @@ Making a contribution is real easy - just read the specs, and do one of these:
 **Also, feel free to take a few aliases that doesn't have a file, and create their files.**
 
 **Just fork the repository, do one of the tasks above, make a pull request and we'll approve it.**
+
+## License
+
+This project is licensed under the MIT License.

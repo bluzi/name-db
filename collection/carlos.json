@@ -1,9 +1,11 @@
 {
     "name": "carlos",
-    "meaning": "farmer, warrior", 
+    "meaning": "farmer, warrior",
     "aliases": [
         "carl"
     ],
     "translations": {
+        "por": "carlos",
+        "rus": "карлос"
     }
 }
