@@ -6,5 +6,8 @@
         "jake",
         "john",
         "jon"
-    ]
+    ],
+    "translations": {
+        "rus": "джек"
+    }
 }
