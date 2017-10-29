@@ -14,4 +14,10 @@ router.get('/:name', (req, res, next) => {
     .catch(err => res.status(404).send({ err: true, debug: err }));
 });
 
+router.get('/search/:term', (req, res, next) => {
+  utils.searchTerm(req.params.term)
+    .then(results => res.status(200).send(results).end())
+    .catch(err => res.status(404).send({ err: true, debug: err }));
+});
+
 module.exports = router;
