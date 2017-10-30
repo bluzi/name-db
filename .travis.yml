@@ -3,7 +3,7 @@ node_js:
   - "8"
 deploy:
   provider: script
-  skip_cleanup: true 
+  skip_cleanup: true  
   script: node deploy/deploy.collection.js
   on: 
     branch: 'master'   
