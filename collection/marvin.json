@@ -5,6 +5,8 @@
         "marwin"
     ],
     "translations": {
-        "deu": "marvin"
+        "deu": "marvin",
+        "fas": "ماروین",
+        "rus": "марвин"
     }
 }

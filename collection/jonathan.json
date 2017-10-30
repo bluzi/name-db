@@ -9,10 +9,9 @@
       "johnny",
       "jojo"
     ],
-    "transaltions": {
-        "eng": "jon",
+    "translations": {
         "ita": "gionata",
-        "heb": "yonatan",
+        "heb": "יונתן",
         "isl": "jónatan",
         "spa": "jonatan",
         "swe": "jonatan",
@@ -21,6 +20,8 @@
         "deu": "jonatan",
         "por": "jônatas",
         "gle": "ionatán",
-        "ita": "jonathan"
+        "ita": "jonathan",
+        "fas": "جاناتان",
+        "rus": "джонатан"
     }
 }
