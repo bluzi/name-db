@@ -309,5 +309,12 @@
         "rus": "Марк",
         "spa": "Marcos"
       }
+    },
+    {
+      "name": "Fernando",
+      "meaning": "an Iberian given name equivalent to the Germanic given name Ferdinand, with an original meaning of \"adventurous, bold journey\"",
+      "translations": {
+        "por": "Fernando"
+      }
     }
 ]
