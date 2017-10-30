@@ -2,10 +2,12 @@
     "name": "carlos",
     "meaning": "farmer, warrior",
     "aliases": [
-        "carl"
+        "carl",
+        "charlie"
     ],
     "translations": {
         "por": "carlos",
-        "rus": "карлос"
+        "rus": "карлос",
+        "eng": "charles"
     }
 }
