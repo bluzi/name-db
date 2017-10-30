@@ -3,7 +3,7 @@
 # name-db
 > `name-db` is a collection of names in all languages. Our goal is to collect as much data as we can, and to provide an open-source free API for name translations.
 
-## Specs
+## Specs 
 
 *name-db* currently stores only **first names**.
 
