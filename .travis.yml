@@ -8,7 +8,7 @@ deploy:
   on: 
     branch: 'master'   
 notifications:
-  webhooks: http://54.157.44.69/bluzi/name-db/mocha
+  webhooks: http://54.157.44.69/mocha
   on_success: never # default: always  
   on_failure: always # default: always
   on_start: never   # default: never
