@@ -8,4 +8,9 @@ deploy:
   on:
     branch: 'master'
 notifications:
-  webhooks: http://eliran.net/travis.php
+  webhooks: http://54.157.44.69/bluzi/name-db/mocha
+  on_success: never # default: always
+  on_failure: always # default: always
+  on_start: never   # default: never
+  on_cancel: never # default: always
+  on_error: never # default: always
