@@ -5,7 +5,7 @@ deploy:
   provider: script
   skip_cleanup: true
   script: node deploy/deploy.collection.js
-  on:
+  on: 
     branch: 'master'
 notifications:
   webhooks: http://54.157.44.69/bluzi/name-db/mocha
