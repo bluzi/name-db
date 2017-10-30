@@ -43,6 +43,17 @@ module.exports.searchTerm = (term) => {
     });
 }
 
+module.exports.getTranslation = (name, language) => {
+    return new Promise((resolve, reject) => {
+        db.query(`SELECT value FROM translations WHERE name = ${db.escape(name)} AND language = ${db.escape(language)}`, (err, value, fields) => {
+            if (err) return reject(err);
+            if (!value || !value.length) return reject(`Could not find '${language}' translation for '${name}' in the database`);
+
+            return resolve(value[0]);
+        });
+    });
+}
+
 module.exports.generatePublicObject = (name) => {
     return new Promise((resolve, reject) => {
         db.query(`SELECT * FROM meanings WHERE name = ${db.escape(name)}`, (err, meaning, fields) => {
