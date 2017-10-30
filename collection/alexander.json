@@ -1,6 +1,9 @@
 {
 	"name": "alexander",
 	"meaning": "Greek for \"Defending men\"",
+	"aliases":[
+		"alex"
+	],
 	"transaltions": {
 		"mkd": "александар",
 		"pol": "aleksander",
@@ -13,6 +16,7 @@
 		"jpn": "アレクサンダー",
 		"ita": "alessandro",
 		"tha": "อเล็กซานเดอร์",
-		"heb": "אלכסנדר"
+		"heb": "אלכסנדר",
+		"ger": "alexander"
 	}
 }
