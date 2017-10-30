@@ -1,0 +1,7 @@
+{
+    "name": "roberto", // English name, lowercase, coresponding to the filename
+        "meaning": "Bright fame", // The meaning of the name, in English
+            "aliases": [], // An array of lowercase alias names, such as: richard -> dick, daniel -> dan, etc.
+                "translations": {
+                            }
+                            }
