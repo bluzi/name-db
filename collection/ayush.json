@@ -1,8 +1,9 @@
 {
-	"name":"ayush",
-	"meaning":"someone with long age",
-	"aliases":[],
-	"translations":{
-		"hin":"आयुष"
-	}
+  "name": "ayush",
+  "meaning": "One with long life",
+  "translations": {
+    "ban": "আয়ুষ",
+    "urd": "ایش",
+    "hin": "आयुष"
+  }
 }
