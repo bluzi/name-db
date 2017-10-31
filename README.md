@@ -50,6 +50,26 @@ The API is still under development, but you can see the latest stable version [h
 Note that you shouldn't use it in production yet - We still don't have enough data, and the endpoint is running on a cheap machine.
 Feel free to [view the code](https://github.com/bluzi/name-db/tree/master/api), suggest features or create new features with a pull request - we're looking for help with the API.
 
+## Translation Crawler
+
+The crawler lookups translations for the existing data, writing it's output back on files/ adding it to a external file named `crawler_output.json` which may be found in the root of this repo.
+
+In order to run it, as dependencies, `python3` and `virtualenv` has to be installed on the machine, running under a *NIX based OS.
+
+### Installation
+
+1) run virtualenv --python python3 venv
+2) source venv/bin/activate
+3) pip install -r requirements.txt
+
+### Run
+
+In order to run, use `python crawler_behind_the_names.py` in the terminal. A small output of how many names have been crawled out of how many there are have been parsed.
+
+ENJOY!
+
+P.S. If anything seems off, or you need support with anything, feel free to contact [me](emailto:virgil.luta@gmail.com).
+
 ## Contribution (Easy PR, large impact!)
 
 Making a contribution is real easy - just read the specs, and do one of these:
