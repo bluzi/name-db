@@ -1,0 +1,20 @@
+{
+    "name": "prem",
+    "meaning": "love",
+    "aliases": [
+        "sneh"
+    ],
+    "translations": {
+        "hindi": "प्रेम",
+        "chinese" : "炳",
+        "kannada" : "ಪೂರ್ವ" ,
+        "bangla" : "প্রেম",
+        "arabic" : "بريم",
+        "sindhi" : "پراڻو",
+        "thai" : "เปรม",
+        "tamil" : "பிரேம்" ,
+        "japanese" : "前" ,
+        "urdu" : "پریمی"
+    }
+    
+}
