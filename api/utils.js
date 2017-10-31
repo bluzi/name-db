@@ -27,6 +27,22 @@ module.exports.findName = (name) => {
     });
 }
 
+module.exports.searchTerm = (term) => {
+    return new Promise((resolve, reject) => {
+        db.query(`SELECT name FROM aliases WHERE name LIKE ${db.escape('%'+term+'%')} OR alias LIKE ${db.escape('%'+term+'%')}`, (err, names, fields) => {
+            if (err) return reject(err);
+            if (!names || !names.length) return reject(`Could not find any names with term '${term}' in the database`);
+            const promises = [];
+
+            for (const name of names) {
+                promises.push(module.exports.generatePublicObject(name.name));
+            }
+
+            return Promise.all(promises).then(resolve).catch(reject);
+        });
+    });
+}
+
 module.exports.generatePublicObject = (name) => {
     return new Promise((resolve, reject) => {
         db.query(`SELECT * FROM meanings WHERE name = ${db.escape(name)}`, (err, meaning, fields) => {
