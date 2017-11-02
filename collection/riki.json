@@ -1,17 +1,19 @@
 {
-    "name": "Riki",
-    "meaning": "German/Norse for \"riki\" powerful leader or peacful ruler",
+    "name": "riki",
+    "meaning": "Old German/Norse for \"peacful ruler\"",
     "aliases": [
-        "Rica",
-        "Rickie",
-        "Erica",
-        "Rikki",
-        "Rico",
-        "Ricky",
-        "Rickie",
-        "Rickey"
+        "rica",
+        "rickie",
+        "erica",
+        "rikki",
+        "rico",
+        "ricky",
+        "rickie",
+        "rickey"
     ],
     "translations": {
-        "ja": "りき"
+        "chi": "內力",
+        "ara": "ريكي",
+        "jpn": "りき"
     }
 }
