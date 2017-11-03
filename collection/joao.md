@@ -1,6 +1,6 @@
 {
     "name": "joao",
-    "meaning": "It means \"God is full of grace,\" \"graced by God,\" or \"the grace and mercy of God,\" and \"God forgives.\",
+    "meaning": "It means \"God is full of grace,\" \"graced by God,\" or \"the grace and mercy of God,\" and \"God forgives.\"",
     "aliases": ["jô"],
     "translations": {
         "urd": "جواؤ",
