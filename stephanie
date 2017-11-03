@@ -1,7 +1,7 @@
 {
     "name": "stephanie", 
-    "meaning": "Crown; victorious", // The meaning of the name, in English
-    "aliases": ["stefanie", "stefania"], // An array of lowercase alias names, such as: richard -> dick, daniel -> dan, etc.
+    "meaning": "Crown; victorious",
+    "aliases": ["stefanie", "stefania"], /
     "translations": {
         "grc": "Στεφανία" 
     }
