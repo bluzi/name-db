@@ -18,7 +18,8 @@ Each name is stored in a JSON file, located in `collection/`. The following is t
     "aliases": [], // An array of lowercase alias names, such as: richard -> dick, daniel -> dan, etc.
     "translations": {
         "{lowercase ISO-639-3 language code}": "{translation}" 
-    }
+    },
+    "sex": "" // Gender of the name. Use a single, lowercase letter: `m` for male, `f` for female or `u` for unisex (names that can be male or female).
 }
 ``` 
 
@@ -37,7 +38,8 @@ Each name is stored in a JSON file, located in `collection/`. The following is t
     ], 
     "translations": {
         "heb": "ג'ונתן" 
-    }
+    },
+    "sex": "m"
 }
 ``` 
 
