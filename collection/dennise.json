@@ -1,0 +1,10 @@
+{
+    "name": "dennise",
+    "meaning": "Feminine of Denis from the Greek name Dionysus",
+    "aliases": [
+        "nnise"
+    ],
+    "translations": {
+        "por": "denise"
+    }
+}
