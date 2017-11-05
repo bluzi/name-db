@@ -10,9 +10,15 @@ router.get('/', (req, res, next) => {
 
 router.get('/:name', (req, res, next) => {
   utils.findName(req.params.name)
+  .then(result => res.status(200).send(result).end())
+  .catch(err => res.status(404).send({ err: true, debug: err }));
+});
+
+router.get('/:name/:language', (req, res, next) => {
+  utils.findNameTranslation(req.params.name, req.params.language)
     .then(result => res.status(200).send(result).end())
     .catch(err => res.status(404).send({ err: true, debug: err }));
-});
+})
 
 router.get('/search/:term', (req, res, next) => {
   utils.searchTerm(req.params.term)
