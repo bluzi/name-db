@@ -4,14 +4,16 @@
     "aliases": [
         "matt",
         "mathew",
-        "mat"
+        "mat",
+        "math"
     ],
-    "transaltions": {
+    "translations": {
         "afr": "matteus",
         "spa": "mateo",
         "heb": "מַתִּתְיָהוּ",
         "ukr": "меттью",
         "rus": "мэттью",
-        "mkd": "матеј"
+        "mkd": "матеј",
+        "por": "matheus"
     }
 }
