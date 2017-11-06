@@ -1,6 +1,10 @@
 {
     "name": "julius",
     "meaning": "Latin for \"downy-bearded or youth\"",
+    "aliases": [
+        "julian",
+        "jules"
+    ],
     "translations": {
         "fra": "jules",
         "ita": "giulio",
