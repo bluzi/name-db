@@ -127,23 +127,39 @@ describe('Translations', () => {
     })
 });
 
-// describe('Sex', () => {
-//     it('should be lowercase', () => {
-//         for (const fileName of files) {
-//             const contents = fs.readFileSync('./collection/' + fileName);
-//             const json = JSON.parse(contents);
-//             const sex = json.sex;
+describe('Sex', () => {
+    it('should be a string', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const sex = json.sex;
 
-//             assert.equal(sex["sex"].toLowerCase(), true);
-//         }
-//     });
-//     it('should equal m, f or u', () => {
-//         for (const fileName of files) {
-//             const contents = fs.readFileSync('./collection/' + fileName);
-//             const json = JSON.parse(contents);
-//             const sex = json.sex;
+            if (sex != null) {
+                assert.equal(typeof(sex), "string");
+            }
+        }
+    });    
+    it('should be lowercase', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const sex = json.sex;
 
-//             assert.equal(["m","f","u"].includes(sex["sex"]), true);
-//         }
-//     });    
-// });
+            if (sex != null) {
+                assert.equal(sex, sex.toLowerCase());
+            }
+        }
+    });
+    it('should equal "m", "f", "u" or "(blank)"', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const sex = json.sex;
+            const sexParams = ["m","f","u", ""];
+
+            if (sex != null) {
+                assert.equal(sexParams.indexOf(sex) !== -1, true);
+            }
+        }
+    });    
+});
