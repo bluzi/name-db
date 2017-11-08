@@ -128,17 +128,19 @@ describe('Translations', () => {
 });
 
 describe('Sex', () => {
-    it('should be a string', () => {
+    it('should be "m", "f" or "u"', () => {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
             const json = JSON.parse(contents);
             const sex = json.sex;
+            const sexParams = ["m","f","u"];
 
             if (sex != null) {
-                assert.equal(typeof(sex), "string");
+                // assert.equal takes three parameters: actual value, expected value, and an optional error message)
+                assert.equal(sexParams.indexOf(sex) !== -1, true, "\"" + sex + "\"" + " should match " + "\"" + "m\"" + " \"f\"" + " or" + " \"u\"");
             }
         }
-    });    
+    });       
     it('should be lowercase', () => {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
@@ -146,20 +148,8 @@ describe('Sex', () => {
             const sex = json.sex;
 
             if (sex != null) {
-                assert.equal(sex, sex.toLowerCase());
+                assert.equal(sex, sex.toLowerCase(), "\"" + sex + "\"" + " is not lowercase");
             }
         }
     });
-    it('should equal "m", "f", "u" or "(blank)"', () => {
-        for (const fileName of files) {
-            const contents = fs.readFileSync('./collection/' + fileName);
-            const json = JSON.parse(contents);
-            const sex = json.sex;
-            const sexParams = ["m","f","u", ""];
-
-            if (sex != null) {
-                assert.equal(sexParams.indexOf(sex) !== -1, true);
-            }
-        }
-    });    
 });
