@@ -15,6 +15,7 @@ Each name is stored in a JSON file, located in `collection/`. The following is t
 {
     "name": "", // English name, lowercase, coresponding to the filename
     "meaning": "", // The meaning of the name, in English
+    "sex": "", // Optional: should be either "m" for male, "f" for female, or "u" for unisex
     "aliases": [], // An array of lowercase alias names, such as: richard -> dick, daniel -> dan, etc.
     "translations": {
         "{lowercase ISO-639-3 language code}": "{translation}" 
@@ -30,6 +31,7 @@ Each name is stored in a JSON file, located in `collection/`. The following is t
 {
     "name": "jonathan",
     "meaning": "Hebrew for \"YHWH has given\"",
+    "sex": "m",
     "aliases": [
         "johnathan",
         "john",
