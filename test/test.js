@@ -3,6 +3,7 @@ const fs = require('fs-extra');
 const Validator = require('jsonschema').Validator;
 const path = require('path');
 const iso6393 = require('iso-639-3');
+const {assertAlphabetFor} = require('./alphabet-helper');
 
 const files = fs.readdirSync('./collection');
 
@@ -105,6 +106,7 @@ describe('name files', () => {
 });
 
 describe('Translations', () => {
+
     it('should be lowercase', () => {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
@@ -120,5 +122,18 @@ describe('Translations', () => {
 
             assert.equal(allLowerCase, true);
         }
-    })
+    });
+
+    describe('all chars should be in the lang alphabet', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const translations = json.translations || {};
+            const langs = Object.keys(translations)
+
+            it(`for translations of ${json.name}`, () => {
+                langs.forEach( (l)=> assertAlphabetFor(l, translations[l]) );
+            });
+        }
+    });
 });
