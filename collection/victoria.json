@@ -1,12 +1,16 @@
 {
     "name": "victoria",
-    "meaning": "Victory",
+    "meaning": "victory",
     "aliases": [
         "tori",
         "vicki",
+        "vickie",
         "vicky",
-        "vickie"
+        "vikki"
     ],
     "translations": {
+        "fra": "victoire",
+        "rus": "виктория",
+        "ukr": "вікторія"
     }
-}
+}  
