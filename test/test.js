@@ -83,6 +83,10 @@ describe('name files', () => {
                         }
                     },
                     'additionalProperties': false
+                },
+                'sex': {
+                    'required': false,
+                    'type': 'string'
                 }
             }
         };
@@ -121,4 +125,31 @@ describe('Translations', () => {
             assert.equal(allLowerCase, true);
         }
     })
+});
+
+describe('Sex', () => {
+    it('should be "m", "f" or "u"', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const sex = json.sex;
+            const sexParams = ["m","f","u"];
+
+            if (sex != null) {
+                // assert.equal takes three parameters: actual value, expected value, and an optional error message)
+                assert.equal(sexParams.indexOf(sex) !== -1, true, "\"" + sex + "\"" + " should match " + "\"" + "m\"" + " \"f\"" + " or" + " \"u\"");
+            }
+        }
+    });       
+    it('should be lowercase', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const sex = json.sex;
+
+            if (sex != null) {
+                assert.equal(sex, sex.toLowerCase(), "\"" + sex + "\"" + " is not lowercase");
+            }
+        }
+    });
 });

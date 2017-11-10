@@ -4,9 +4,13 @@
     "translations": {
         "fra": "luc",
         "deu": "lukas",
+        "ces": "lukáš",
+        "gle": "lúc",
+        "hun": "lukács",
         "rus": "люк",
         "spa": "lucas",
         "ita": "luca",
-        "gae": "lùc"
+        "gae": "lùc",
+        "pol": "łukasz"
     }
 }
