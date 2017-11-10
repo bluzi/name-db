@@ -1,9 +1,7 @@
 {
 	"name" : "shubham",
 	"meaning" : "auspicious, lucky",
-	"aliases" : {
-		"shubh"
-	},
+	"aliases" : ["shubh"],
 	"translations" : {
 		"jap" : "シュハム",
 		"fra" : "shubham",
