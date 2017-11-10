@@ -1,10 +1,11 @@
 {
 	"name": "james",
-	"meaning": "One who follows.",
-	"aliases": [
-		"jim"
-	],
+	"meaning": "English form of the Late Latin name Iacomus which was derived from Ιακωβος (Iakobos), the New Testament Greek form of the Hebrew name Ya'aqov (see Jacob). One who follows.",
+	"aliases": ["jim"],
 	"translations": {
-		"heb": "ג'יימס"
+		"pol": "jakub",
+		"por": "iago",
+		"isl": "jakob",
+    "heb": "ג'יימס"
 	}
 }
