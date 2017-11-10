@@ -4,5 +4,6 @@
 	"aliases": ["johnny"],
 	"translations": {
 		"deu": "johann"
-	}
+	},
+	"sex": "m"
 }
