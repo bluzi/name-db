@@ -1,6 +1,10 @@
 {
     "name": "julius",
     "meaning": "Latin for \"downy-bearded or youth\"",
+    "aliases": [
+        "julian",
+        "jules"
+    ],
     "translations": {
         "fra": "jules",
         "ita": "giulio",
@@ -13,6 +17,8 @@
         "spa": "julio",
         "deu": "julius",
         "aze": "yuli",
-        "rus": "юлий"
-    }
+        "rus": "юлий",
+        "heb": "יוליוס"
+    },
+    "sex": "m"
 }

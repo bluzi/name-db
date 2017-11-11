@@ -3,6 +3,7 @@
     "meaning": "Derives from German/French/English \"ric\", (ruler, leader, king, powerful) and \"hard\" (strong, brave, hardy)",
     "aliases": [
       "dick",
+      "dickie",
       "dicky",
       "rich",
       "richie",
@@ -14,6 +15,8 @@
         "pol": "ryszard",
         "por": "ricardo",
         "spa": "rico",
-        "rus": "ричард"
-    }
+        "rus": "ричард",
+        "heb": "ריצ'ארד"
+    },
+    "sex": "m"
 }

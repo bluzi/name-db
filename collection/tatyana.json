@@ -1,9 +1,15 @@
 {
     "name": "tatyana",
     "meaning": "A name of Slavic origin, which means fairy princess.",
+    "aliases": [
+      "tati"
+    ],
     "translations": {
         "hye": "տատյանա",
         "rus": "татьяна",
-        "fas": "تاتیانا"      
-    }
+        "fas": "تاتیانا",
+        "spa": "tatiana",
+        "heb": "טאטיאנה"
+    },
+    "sex": "f"
 }

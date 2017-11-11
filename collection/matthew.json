@@ -1,15 +1,21 @@
 {
     "name": "matthew",
-    "meaning": "Hebrew for \"gift of YHWH\"",
+    "meaning": "Hebrew for \"gift of YHWH\". Gift of God.",
     "aliases": [
-        "matt"
+        "matt",
+        "mathew",
+        "mat",
+        "math"
     ],
-    "transaltions": {
+    "translations": {
         "afr": "matteus",
+        "por": "mateus",
         "spa": "mateo",
         "heb": "מַתִּתְיָהוּ",
         "ukr": "меттью",
         "rus": "мэттью",
-        "mkd": "матеј"
-    }
+        "mkd": "матеј",
+        "por": "matheus"
+    },
+    "sex": "m"
 }

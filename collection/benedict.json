@@ -8,6 +8,10 @@
    ],
    "translations": {
       "pol": "benedykt",
-      "rus": "бенедикт"
-   }
+      "ces": "benedikt",
+      "rus": "бенедикт",
+      "por": "benedito",
+      "heb": "בנדיקט"
+   },
+   "sex": "m"
 }

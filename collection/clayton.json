@@ -6,6 +6,8 @@
     ],
     "translations": {
         "spa": "clayton",
-        "rus": "клэйтон"
-    }
+        "rus": "клэйтон",
+        "heb": "קלייטון"
+    },
+    "sex": "m"
 }
