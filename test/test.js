@@ -22,8 +22,8 @@ describe('name files', () => {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
             const json = JSON.parse(contents);
-            assert.ok(json.name === json.name.toLowerCase(), 'name property "' + json.name + '" in "' + fileName + '" is not lowercase');
-            assert.ok(json.name === path.basename(fileName, '.json'), 'name property "' + json.name + '" in "' + fileName + '" does not match the file name');
+            assert.ok(json.name === json.name.toLowerCase(), `name property "${json.name}" in "${fileName}" is not lowercase`)
+            assert.ok(json.name === path.basename(fileName, '.json'), `name property "${json.name}" in "${fileName}" does not match the file name`);
         }
     });
 
@@ -38,7 +38,7 @@ describe('name files', () => {
 
         const isDuplicate = (new Set(names).size !== names.length);
         const duplicatedNames = names.filter((name, index) => names.indexOf(name) != index);
-        assert.equal(isDuplicate, false, 'duplicated names are not allowed, names duplicated: ' + duplicatedNames.join(', '));
+        assert.equal(isDuplicate, false, `duplicated names are not allowed, names duplicated: ${[...new Set(duplicatedNames)].join(', ')}`);
     });
 
     it('should have ISO-639-3 language codes', () => {
@@ -118,7 +118,7 @@ describe('Translations', () => {
             const keys = Object.keys(translations)
 
             for (const key of keys) {
-                assert.equal(translations[key], translations[key].toLowerCase(), '"' + translations[key] + '" translation in ' + fileName + ' is not lowercase');
+                assert.equal(translations[key], translations[key].toLowerCase(), `"${translations[key]}" translation in "${fileName}" is not lowercase`);
             }
         }
     })
@@ -134,10 +134,11 @@ describe('Sex', () => {
 
             if (sex != null) {
                 // assert.equal takes three parameters: actual value, expected value, and an optional error message)
-                assert.equal(sexParams.indexOf(sex) !== -1, true, "sex property " + "\"" + sex + "\" in " + fileName + " does not match expected values " + "\"" + "m\"" + " \"f\"" + " or" + " \"u\"");
+                assert.equal(sexParams.indexOf(sex) !== -1, true, `sex property "${sex}" in "${fileName}" does not match expected values "m", "f" or "u"`);
             }
         }
-    });       
+    });  
+         
     it('should be lowercase', () => {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
@@ -145,7 +146,7 @@ describe('Sex', () => {
             const sex = json.sex;
 
             if (sex != null) {
-                assert.equal(sex, sex.toLowerCase(), "sex property " + "\"" + sex + "\" in " + fileName + " is not lowercase");
+                assert.equal(sex, sex.toLowerCase(), `sex property "${sex}" in "${fileName}" is not lowercase`);
             }
         }
     });
