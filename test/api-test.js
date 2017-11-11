@@ -6,6 +6,7 @@ const app = express();
 const mary = "mary";
 const jack = "jack";
 const err = true;
+const errObj = new Error("Response does not contain the correct payload");
 
 app.use('/', router);
 const server = app.listen(5000);
@@ -48,20 +49,20 @@ describe('/:name', () => {
 function jackTest(res) {
   const name = res.body.name;
   if (name !== jack) {
-    throw new Error("Response does not contain the correct name data");
+    throw errObj;
   }
 }
 
 function maryTest(res) {
   const name = res.body.name;
   if (name !== mary) {
-    throw new Error("Response does not contain the correct name data");
+    throw errObj;
   }
 }
 
 function errTest(res) {
   const resBody = res.body.err
   if (resBody !== err) {
-    throw new Error("Response does not contain the correct payload");
+    throw errObj;
   }
 }
