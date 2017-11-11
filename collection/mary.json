@@ -7,6 +7,9 @@
     "translations": {
         "por": "maria",
         "jpn": "マリア",
-        "rus": "мария"
-    }
+        "rus": "мария",
+        "spa": "maría",
+        "heb": "מרי"
+    },
+    "sex": "f"
 }

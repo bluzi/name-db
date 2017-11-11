@@ -4,6 +4,10 @@
     "translations": {
         "fra": "nicolas",
         "gmy": "nikolaos",
-        "deu": "nicolaus"
-    }
+        "deu": "nicolaus",
+	"srp": "nikola",
+    "lat": "nicolaus",
+    "heb": "ניוקולס"
+    },
+    "sex": "m"
 }

@@ -1,11 +1,16 @@
 {
     "name": "juliana",
     "meaning": "Feminine of Julius, Latin for \"youthful\"",
+    "aliases": [
+        "julianne"
+    ],
     "translations": {
         "fra": "julie",
         "deu": "julia",
         "pol": "julia",
         "ukr": "юліанія",
-        "rus": "юлиана"
-    }
+        "rus": "юлиана",
+        "heb": "ג'וליאנה"
+    },
+    "sex": "f"
 }
