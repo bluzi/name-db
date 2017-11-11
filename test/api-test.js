@@ -28,10 +28,18 @@ describe('/:name', () => {
       .end(done);
   })
   it('sends an err msg with a 404 resp status when querying names not existing in the db', (done) => {
-    done()
+    request(server)
+      .get('/faa')
+      .expect(404)
+      .expect(errTest)
+
+    request(server)
+      .get('/saa')
+      .expect(404)
+      .expect(errTest)
+      .end(done);
   })
 })
-
 
 
 
@@ -48,5 +56,12 @@ function maryTest(res) {
   const name = res.body.name;
   if (name !== mary) {
     throw new Error("Response does not contain the correct name data");
+  }
+}
+
+function errTest(res) {
+  const resBody = res.body.err
+  if (resBody !== err) {
+    throw new Error("Response does not contain the correct payload");
   }
 }
