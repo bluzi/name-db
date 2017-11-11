@@ -11,7 +11,7 @@
     ],
     "translations": {
         "ita": "gionata",
-        "heb": "יונתן",
+        "heb": "ג'ונתן",
         "isl": "jónatan",
         "spa": "jonatan",
         "swe": "jonatan",
@@ -24,5 +24,6 @@
         "fas": "جاناتان",
         "rus": "джонатан",
         "fra": "jonathan"
-    }
+    },
+      "sex": "m"
 }

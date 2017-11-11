@@ -8,6 +8,8 @@
 		
 	],
 	"translations": {
-		"fra": "jasmin"
-	}
+		"fra": "jasmin",
+		"heb": "יסמין"
+	},
+	"sex": "f"
 }

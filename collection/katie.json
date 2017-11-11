@@ -5,6 +5,8 @@
         "kate"
     ], 
     "translations": {
-        "cdo": "凯蒂" 
-    }
+        "cdo": "凯蒂",
+        "heb": "קאטי"
+    },
+    "sex": "f"
 }

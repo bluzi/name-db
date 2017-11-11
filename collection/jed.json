@@ -4,6 +4,8 @@
     "translations": {
         "fra": "jed",
         "kor": "제드",
-        "tag": "jed"
-    }
+        "tag": "jed",
+        "heb": "ג'ייד"
+    },
+    "sex": "m"
 }

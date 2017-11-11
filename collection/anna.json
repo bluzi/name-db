@@ -2,6 +2,8 @@
 	"name": "anna",
 	"meaning": "Anna is a Latin form of the Hebrew name Hannah, meaning \"favor\" or \"grace\" or \"beautiful\".",
 	"translations": {
-		"ces": "anna"
-	}
+		"ces": "anna",
+		"heb": "אנה"
+	},
+	"sex": "f"
 }

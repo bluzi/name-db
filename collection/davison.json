@@ -5,6 +5,8 @@
         "davis"
     ], 
     "translations": {
-        "fra": "davison" 
-    }
+        "fra": "davison",
+        "heb": "דייויסון"
+    },
+    "sex": "m"
 }
