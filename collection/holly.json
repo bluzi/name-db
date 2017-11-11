@@ -1,14 +1,14 @@
 {
     "name": "holly",
-    "meaning": "to prick, or refers to the holly shrub",
+    "meaning": "derived from the Old English holegn (to prick), also refers to the evergreen shrub",
     "aliases": [
         "hollie",
         "holley",
         "holli"
     ],
     "translations": {
-        "deu": "llex",
-        "gle": "cuileann"
+        "zho": "奥利",
+        "ara": "هولي"
     },
     "sex": "f"
 }
