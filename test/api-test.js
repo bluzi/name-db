@@ -40,6 +40,10 @@ describe('/:name', () => {
       .expect(errTest)
       .end(done);
   })
+  after((done) => {
+    server.close()
+    done()
+  })
 })
 
 
