@@ -4,5 +4,6 @@
 	"aliases": ["rita"],
 	"translations": {
 		"heb": "ריטה"
-	}
+	},
+	"sex": "f"
 }
