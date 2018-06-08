@@ -1,10 +1,12 @@
 {
   "name": "elizabeth",
   "meaning": "From \"Elisheva\", hebrew for \"Oath of God\" or \"God satisfaction\"",
+  "aliases": ["chavela", "chave", "isa"],  
   "translations": {
       "heb": "אליזבת",
       "rus": "елизавета",
-      "jpn": "エリザベス"
+      "jpn": "エリザベス",
+      "spa": "isabel"
   },
   "sex": "f"
 }

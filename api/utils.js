@@ -2,7 +2,7 @@ const mysql = require('mysql');
 const iso6393 = require('iso-639-3');
 
 const mysqlConfig = {
-  host: '184.73.147.33' || process.env.host,
+  host: 'localhost' || process.env.host,
   user: 'github-limited-user' || process.env.user,
   password: '' || process.env.password,
   database: 'name-db' || process.env.database,

@@ -2,8 +2,9 @@
     "name": "jacob",
     "sex": "m",
     "meaning": "In hebrew: grasps the heel",
-    "aliases": ["Jake", "Jakob"],
+    "aliases": ["jake", "jakob"],
     "translations": {
-        "rus": "яков"
+        "rus": "яков",
+        "spa": "jacobo"
     }
 }
