@@ -20,7 +20,6 @@ const tasks = {
     next: () => tasks.pipe.length > 0 ? tasks.pipe.shift()() : db.end(err => err ? console.error(err.message) : console.log('Bye!')),
 }
 
-
 const db = mysql.createConnection(mysql_creds);
 
 console.log(`trying to connect to ${mysql_creds.user}@${mysql_creds.host}/${mysql_creds.database}...`)

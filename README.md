@@ -52,6 +52,23 @@ The API is still under development, but you can see the latest stable version [h
 Note that you shouldn't use it in production yet - We still don't have enough data, and the endpoint is running on a cheap machine.
 Feel free to [view the code](https://github.com/bluzi/name-db/tree/master/api), suggest features or create new features with a pull request - we're looking for help with the API.
 
+## Test it Locally
+
+### Database
+To deploy the app you need a *MariaDB* or a *MySQL* instance running and a database named 'name-db'. To create the db schema you need to download [liquibase](http://download.liquibase.org/download/?frm=n) and then configure the [properties](database/liquibase.properties) to your DB instance. Once installed, you just need to run the following command:
+
+```
+$ liquibase --changeLogFile="database/changesets/changeset0-0-0-1.xml" update
+```
+
+### Data
+Running the command `node deploy/deploy.collection.js` will fill the DB with the names collection.
+
+### Server
+The last configuration you must do is on the [utils](api/utils.js) file. Change the data on `mysqlConfig` for your DB credentials or create the required ENVs and you will be set.
+
+Lastly execute the command `npm run start` and the server will be up. Test the API [here](http://localhost:3000).
+
 ## Contribution (Easy PR, large impact!)
 
 Making a contribution is real easy - just read the specs, and do one of these:
