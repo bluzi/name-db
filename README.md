@@ -82,6 +82,8 @@ Making a contribution is real easy - just read the specs, and do one of these:
 
 **Just fork the repository, do one of the tasks above, make a pull request and we'll approve it.**
 
+**Before making a pull request, test the changes locally with `npm run test`.**
+
 ## License
 
 This project is licensed under the MIT License.
