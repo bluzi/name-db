@@ -2,31 +2,78 @@
 
 const mysql = require('mysql');
 const fs = require('fs');
+const { version } = require('../package.json');
+const deploy = require('commander');
+const promptly = require('promptly');
 
+// define db variable.
+let db;
+
+// get names collection.
 const collection = fs.readdirSync('collection/')
     .map(fileName => fs.readFileSync('collection/' + fileName))
     .map(fileContents => JSON.parse(fileContents));
 
-const [ env, command, host, user, password, database ] = process.argv;
-const mysql_creds = {
-    host: host || process.env.host,
-    user: user || process.env.user,
-    password: password || process.env.password,
-    database: database || process.env.database,
-};
-
+// create tasks object.
 const tasks = {
     pipe: [meanings, aliases, translations],
     next: () => tasks.pipe.length > 0 ? tasks.pipe.shift()() : db.end(err => err ? console.error(err.message) : console.log('Bye!')),
 }
 
+// set deploy command options.
+deploy
+    .version(version, '-v, --version')
+    .description('Will deploy the collection data into the DB.')
+    .option('-H, --host <host>', 'DB host value without a port.', process.env.host)
+    .option('-u, --user <user>', 'DB user.', process.env.user)
+    .option('-N --db-name <db-name>', 'DB name.', process.env.database)
+    .option('-p, --password [password]', 'Will ask for your password.', process.env.password)
+    .parse(process.argv);
 
-const db = mysql.createConnection(mysql_creds);
+// validate if the -p flag was used without an argument.
+if (typeof deploy.password === 'boolean') {
+    // ask for a password and on result, deploy the collection data.
+    (async () => await promptly.password('password: '))()
+        .then((pass) => {
+                deploy.password = pass;
+                deployData();
+            })
+        .catch((err) => {
+            if (err) console.log(`\n${err.message}...`);
+        });
+// just deploy the collection data.
+} else {
+    deployData();
+}
 
-console.log(`trying to connect to ${mysql_creds.user}@${mysql_creds.host}/${mysql_creds.database}...`)
+/**
+ * Create mysql connection and run defined tasks.
+ */
+function deployData() {
+    const mysql_creds = {
+        host: deploy.host,
+        user: deploy.user,
+        password: deploy.password,
+        database: deploy.dbName,
+    };
 
-db.connect(err => err ? console.error('failed. ' + err.message) : console.log('success\n') || tasks.next());
+    // validate mysql credentials.
+    if (!mysql_creds.host || !mysql_creds.user || !mysql_creds.database) {
+        console.error(`Error: Database credentials may be empty. Please use the following options.`);
+        deploy.help();
+        process.exit(1);
+    }
 
+    db = mysql.createConnection(mysql_creds);
+    
+    console.log(`trying to connect to ${mysql_creds.user}@${mysql_creds.host}/${mysql_creds.database}...`)
+
+    db.connect(err => err ? console.error('failed. ' + err.message) : console.log('success.\n') || tasks.next());
+}
+
+/**
+ * Deploy meanings data into the database.
+ */
 function meanings() {
     db.query(`SELECT name, meaning FROM meanings`, (err, data, fields) => {
         const added = collection.filter(localEntry => !data.some(dbEntry => dbEntry.name === localEntry.name));
@@ -55,6 +102,9 @@ function meanings() {
     });
 }
 
+/**
+ * Deploy aliases data into the database.
+ */
 function aliases() {
     db.query(`SELECT name, alias FROM aliases`, (err, data, fields) => {
         const aliases = collection
@@ -82,6 +132,9 @@ function aliases() {
     });
 }
 
+/**
+ * Deploy translations data into the database.
+ */
 function translations() {
     db.query(`SELECT language, name, value FROM translations`, (err, data, fields) => {
         const translations = collection

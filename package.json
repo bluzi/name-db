@@ -22,11 +22,13 @@
   },
   "dependencies": {
     "body-parser": "~1.18.2",
+    "commander": "^2.15.1",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.9",
-    "iso-639-3": "^1.0.1",
     "express": "~4.16.0",
+    "iso-639-3": "^1.0.1",
     "morgan": "~1.9.0",
-    "mysql": "^2.15.0"
+    "mysql": "^2.15.0",
+    "promptly": "^3.0.3"
   }
 }
