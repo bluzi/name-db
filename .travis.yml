@@ -15,4 +15,4 @@ notifications:
       on_cancel: never
       on_error: never
 travisBuddy:
-  regex: "test"
+  regex: "(\d+ failing)"
