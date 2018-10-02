@@ -4,11 +4,13 @@
   "translations": {
     "fra": "michel",
     "ces": "michal",
+    "deu": "michael",
     "spa": "miguel",
     "por": "miguel",
     "rus": "михаил",
     "pol": "michał",
-    "heb": "מיכאל"
+    "heb": "מיכאל",
+    "ita": "michele"
   },
   "sex": "m"
 }
