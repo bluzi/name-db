@@ -1,13 +1,14 @@
 {
     "name": "ali",
     "meaning": "\"high\" or \"elevated\"",
-    "aliases": [], 
+    "aliases": [],
     "translations": {
         "aze": "əli",
         "fas": "علی",
         "heb": "עלי",
         "tur": "ali",
-        "rus": "али"
+        "rus": "али",
+        "deu": "ali"
     },
     "sex": "m"
 }
