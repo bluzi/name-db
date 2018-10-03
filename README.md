@@ -3,6 +3,10 @@
 # name-db
 > `name-db` is a collection of names in all languages. Our goal is to collect as much data as we can, and to provide an open-source free API for name translations.
 
+<p align="center">
+  <img src="https://github.com/bluzi/name-db/blob/master/logo.png" width="250px">
+</p>
+
 ## Specs
 
 *name-db* currently stores only **first names**.
