@@ -1,0 +1,9 @@
+{
+    "name": "solange", // English name, lowercase, coresponding to the filename
+    "meaning": "", 
+    "aliases": [],
+    "translations": {
+        "fra": "solange" 
+    },
+    "sex": "m"  
+}
