@@ -1,16 +1,23 @@
 {
     "name": "julius",
     "meaning": "Latin for \"downy-bearded or youth\"",
+    "aliases": [
+        "julian",
+        "jules"
+    ],
     "translations": {
-        "fra": "Jules",
-        "ita": "Giulio",
-        "pol": "Juliusz",
-        "por": "Júlio",
-        "ron": "Iuliu",
-        "rus": "Yuliy",
-        "slk": "Július",
-        "slv": "Julij",
-        "spa": "Julio",
-        "deu": "Julius"
-    }
+        "fra": "jules",
+        "ita": "giulio",
+        "pol": "juliusz",
+        "por": "júlio",
+        "ron": "iuliu",
+        "slk": "július",
+        "slv": "julij",
+        "spa": "julio",
+        "deu": "julius",
+        "aze": "yuli",
+        "rus": "юлий",
+        "heb": "יוליוס"
+    },
+    "sex": "m"
 }

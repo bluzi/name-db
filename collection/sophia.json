@@ -2,11 +2,18 @@
     "name": "sophia",
     "meaning": "Greek for \"wisdom\"",
     "translations": {
-        "fra": "Sofie",
-        "deu": "Sofia",
-        "pol": "Zofia",
-        "ron": "Sophiei",
-        "rus": "София",
-        "aze": "Sofia"
-    }
+        "fra": "sofie",
+        "deu": "sofia",
+        "pol": "zofia",
+        "ron": "sophiei",
+        "rus": "софия",
+        "aze": "sofia",
+        "cmn": "索菲亚",
+        "spa": "sofia",
+        "ukr": "софія",
+        "mkd": "софија",
+        "srb": "sofija",
+        "heb": "סופיה"
+    },
+    "sex": "f"
 }

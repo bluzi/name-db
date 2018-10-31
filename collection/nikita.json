@@ -1,0 +1,30 @@
+{
+    "name": "nikita",
+    "meaning": "Greek for \"winner\"",
+    "aliases": [
+      "Nik",
+      "Nekit",
+      "Kit",
+      "Nikitos"
+    ],
+    "translations": {
+        "bel":"мікіта",
+        "ell":"νικήτας",
+        "kat":"ნიკო",
+        "kor":"nikitas",
+        "lat":"nicetas",
+        "deu":"nikita",
+        "pol":"nicetas",
+        "ukr":"микита",
+        "fin":"nikitas",
+        "fra":"nicétas",
+        "chv":"мӗкӗте",
+        "chm":"мигыта",
+        "udm":"микта",
+        "rus": "никита",
+        "mkd": "никита",
+        "fas": "نیکیتا",
+        "heb": "ניקיטה"
+    },
+	"sex": "u"
+}

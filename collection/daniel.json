@@ -1,18 +1,34 @@
 {
     "name": "daniel",
     "meaning": "Masculine form. Hewbrew for \"God is my Judge\". Derived from the bibical figures of Daniel.",
+    "aliases": [
+        "dan",
+        "danny",
+        "dani"
+    ],
     "translations": {
+        "afr": "daniël",
         "ara": "دَانْيَال",
-        "fra": "Daniel",
+        "fra": "daniel",
         "heb": "דָּנִיֵּאל",
-        "ita": "Daniele",
+        "ita": "daniele",
         "jpn": "ダニエル",
-        "lit": "Danielis",
-        "rus": "Дании́л",
+        "lit": "danielis",
+        "rus": "дании́л",
         "hin": "डेन्यल",
-        "por": "Daniel",
-        "deu": "Daniel",
+        "mkd": "даниел",
+        "por": "daniel",
+        "deu": "daniel",
         "kan": "ಡೇನಿಯಲ್",
-        "pol": "Adam"
-    }
+        "pol": "adam",
+        "por": "daniel",
+        "cmn": "丹尼尔",
+        "pol": "daniel",
+        "hye": "դանիել",
+        "ukr": "данієль",
+        "hye": "դանիել",
+        "tha": "แดเนียล"
+
+    },
+    "sex": "m"
 }

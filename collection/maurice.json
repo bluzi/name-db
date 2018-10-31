@@ -2,9 +2,13 @@
     "name": "maurice",
     "meaning": "Man from Mauritania",
     "translations": {
-        "fra": "Maurice",
-        "deu": "Moritz",
-        "ita": "Maurizio",
-        "pol": "Maurycy"
-    }
+        "fra": "maurice",
+        "deu": "moritz",
+        "ita": "maurizio",
+        "pol": "maurycy",
+        "spa": "mauricio",
+        "por": "mauricio",
+        "nld": "maurits"
+    },
+    "sex": "m"
 }

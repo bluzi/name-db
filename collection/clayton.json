@@ -1,7 +1,13 @@
 {
     "name": "clayton",
     "meaning": "place with good clay",
+    "aliases": [
+        "clay"
+    ],
     "translations": {
-        "spa": "Clayton"
-    }
+        "spa": "clayton",
+        "rus": "клэйтон",
+        "heb": "קלייטון"
+    },
+    "sex": "m"
 }

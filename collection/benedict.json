@@ -1,0 +1,17 @@
+{  
+   "name": "benedict",
+   "meaning": "Blessed, from the latin name benedictus",
+   "aliases": [  
+      "ben",
+      "benny",
+      "benjamin"
+   ],
+   "translations": {
+      "pol": "benedykt",
+      "ces": "benedikt",
+      "rus": "бенедикт",
+      "por": "benedito",
+      "heb": "בנדיקט"
+   },
+   "sex": "m"
+}

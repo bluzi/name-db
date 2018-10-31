@@ -6,12 +6,15 @@
         "jenny"
     ],
     "translations": {
-        "fra": "Guenièvre",
+        "fra": "guenièvre",
         "heb": "ג'ניפר",
-        "ita": "Ginevra",
+        "ita": "ginevra",
         "kor": "제니퍼",
-        "wlm": "Gwenhwyfar",
+        "wlm": "gwenhwyfar",
         "hin": "जेनिफर",
-        "deu": "Jennifer"
-    }
+        "deu": "jennifer",
+        "rus": "дженнифер",
+        "fas": "جِنیفر"
+    },
+    "sex": "f"
 }

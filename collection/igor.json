@@ -2,8 +2,13 @@
     "name": "igor",
     "meaning": "Norse for \"God Ingva's fighter\"",
     "translations": {
-        "rus": "Игорь",
-        "ukr": "Iгор",
-        "pol": "Igor"
-    }
+        "rus": "игорь",
+        "ukr": "iгор",
+        "mkd": "игор",
+        "pol": "igor",
+        "hye": "իգոր",
+        "por": "igor",
+        "heb": "איגור"
+    },
+    "sex": "m"
 }

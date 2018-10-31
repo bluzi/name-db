@@ -7,44 +7,38 @@ const iso6393 = require('iso-639-3');
 const files = fs.readdirSync('./collection');
 
 describe('name files', () => {
-    it('should contain valid JSON', done => {
-        (async () => {
-            for (const fileName of files) {
-                try {
-                    const contents = fs.readFileSync('./collection/' + fileName);
-                    JSON.parse(contents);
-                } catch (err) {
-                    done(`Error in name file "${fileName}":\n${err}`);
-                }
+    it('should contain valid JSON', () => {
+        for (const fileName of files) {
+            try {
+                const contents = fs.readFileSync('./collection/' + fileName);
+                JSON.parse(contents);
+            } catch (err) {
+                throw new Error(`Error in name file "${fileName}": Invalid JSON file \n${err}`);
             }
-
-            done();
-        })();
+        }
     });
 
-    it('should contain a lowercase name, same as the filename', done => {
+    it('should contain a lowercase name, same as the filename', () => {
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
             const json = JSON.parse(contents);
-            assert.ok(json.name === json.name.toLowerCase(), 'name is not lowercase');
-            assert.ok(json.name === path.basename(fileName, '.json'), 'fileName should match the name');
+            assert.ok(json.name === json.name.toLowerCase(), `name property "${json.name}" in "${fileName}" is not lowercase`)
+            assert.ok(json.name === path.basename(fileName, '.json'), `name property "${json.name}" in "${fileName}" does not match the file name`);
         }
-
-        done();
     });
 
-    it('should not have duplicate names', done => {
+    it('should not have duplicate names', () => {
         const names = [];
 
         for (const fileName of files) {
             const contents = fs.readFileSync('./collection/' + fileName);
-            var json = JSON.parse(contents);
+            const json = JSON.parse(contents);
             names.push(json.name);
         }
 
-        var isDuplicate = (new Set(names).size !== names.length);
-        assert.equal(isDuplicate, false);
-        done();
+        const isDuplicate = (new Set(names).size !== names.length);
+        const duplicatedNames = names.filter((name, index) => names.indexOf(name) != index);
+        assert.equal(isDuplicate, false, `duplicated names are not allowed, names duplicated: ${[...new Set(duplicatedNames)].join(', ')}`);
     });
 
     it('should have ISO-639-3 language codes', () => {
@@ -53,16 +47,16 @@ describe('name files', () => {
             const json = JSON.parse(contents);
 
             for (const languageCode in json.translations) {
-                const lookup = iso6393.find(o => o.iso6393 == languageCode);
+                const lookup = iso6393.find(o => o.iso6393 === languageCode);
 
                 if (!lookup) {
-                    assert.fail(`${languageCode} is not a valid ISO-639-3 language code in ${fileName}`);
+                    throw new Error(`${languageCode} is not a valid ISO-639-3 language code in "${fileName}"`);
                 }
             }
         }
     });
 
-    it('should have correct structure', done => {
+    it('should have correct structure', () => {
         const jsonValidator = new Validator();
 
         // create the schema for valid name objects
@@ -90,6 +84,10 @@ describe('name files', () => {
                         }
                     },
                     'additionalProperties': false
+                },
+                'sex': {
+                    'required': false,
+                    'type': 'string'
                 }
             }
         };
@@ -105,10 +103,51 @@ describe('name files', () => {
                 // Ensure there are no validation errors
                 assert.equal(validationResult.errors.length, 0);
             } catch (err) {
-                done(`Error in name file "${fileName}":\n${err}`);
+                throw new Error(`Error in name file "${fileName}":\n${err}`);
             }
         }
+    });
+});
 
-        done();
+describe('Translations', () => {
+    it('should be lowercase', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const translations = json.translations || {};
+            const keys = Object.keys(translations)
+
+            for (const key of keys) {
+                assert.equal(translations[key], translations[key].toLowerCase(), `"${translations[key]}" translation in "${fileName}" is not lowercase`);
+            }
+        }
+    })
+});
+
+describe('Sex', () => {
+    it('should be "m", "f" or "u"', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const sex = json.sex;
+            const sexParams = ["m","f","u"];
+
+            if (sex != null) {
+                // assert.equal takes three parameters: actual value, expected value, and an optional error message)
+                assert.equal(sexParams.indexOf(sex) !== -1, true, `sex property "${sex}" in "${fileName}" does not match expected values "m", "f" or "u"`);
+            }
+        }
+    });  
+         
+    it('should be lowercase', () => {
+        for (const fileName of files) {
+            const contents = fs.readFileSync('./collection/' + fileName);
+            const json = JSON.parse(contents);
+            const sex = json.sex;
+
+            if (sex != null) {
+                assert.equal(sex, sex.toLowerCase(), `sex property "${sex}" in "${fileName}" is not lowercase`);
+            }
+        }
     });
 });

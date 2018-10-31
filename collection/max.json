@@ -2,7 +2,16 @@
     "name": "max",
     "meaning": "Short for Maximilian. Which is derived from Maximus that in latin means \"the greatest\"",
     "translations": {
-        "swe": "Max",
-        "deu": "Max"
-    }
+        "hye": "մաքս",
+        "swe": "max",
+        "deu": "max",
+        "cmn": "马克思",
+        "tha": "แมกซ์",
+        "pol": "max",
+        "aze": "maks",
+        "rus": "максим",
+        "ukr": "максим",
+        "heb": "מקס"
+    },
+    "sex": "m"
 }

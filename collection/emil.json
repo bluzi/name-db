@@ -5,11 +5,15 @@
         "Em"
     ],
     "translations": {
-        "fra": "Émile",
+        "fra": "émile",
         "jpn": "エミール",
-        "lat": "Aemilius",
-        "slv": "Emil",
+        "lat": "aemilius",
+        "slv": "emil",
         "heb": "אמיל",
-        "aze": "Emil"
+        "aze": "emil",
+        "mkd": "емил",
+        "pol": "emilian",
+        "rus": "эмиль",
+        "fas": "اِمیل"
     }
 }

@@ -1,18 +1,26 @@
 {
-    "name": "andy",
-    "meaning": "Greek for \"Manly or brave\"",
-    "aliases": [
-        "andrew"
-    ],
-    "translations": {
-        "fra": "André",
-        "gmy": "Ανδρέας",
-        "ell": "Ανδρέας",
-        "spa": "André",
-        "hin": "एंडी",
-        "por": "André",
-        "deu": "Anreas",
-        "kan": "ಆಂಡಿ",
-        "pol": "Andrzej"
-    }
+	"name": "andy",
+	"meaning": "Greek for \"Manly or brave\"",
+	"aliases": ["andrew"],
+	"translations": {
+		"fra": "andré",
+		"gmy": "ανδρέας",
+		"ell": "ανδρέας",
+		"spa": "andré",
+		"hin": "एंडी",
+		"mkd": "андреј",
+		"por": "andré",
+		"deu": "andreas",
+		"ces": "ondřej",
+		"kan": "ಆಂಡಿ",
+		"pol": "andrzej",
+		"cmn": "安迪",
+		"tha": "แอนดี้",
+		"rus": "андрей",
+		"ukr": "андрій",
+		"fas": "اَندی",
+		"heb": "אנדי",
+		"zho": "安迪"
+	},
+	"sex": "m"
 }

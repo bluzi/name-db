@@ -1,15 +1,16 @@
 {
     "name": "benjamin",
     "meaning": "Hebrew for \"son of the south\" or \"son of the right hand\"",
-    "aliases": [
-    	"ben",
-    	"benny"
-    ],
+    "aliases": ["ben", "benny"],
     "translations": {
-        "fra": "Benjamin",
-        "deu": "Benjamin",
-        "heb": "בנג'מין",
-        "rus": "Бенджамен",
-        "pol": "Benjamin"
-    }
+        "fra": "benjamin",
+        "deu": "benjamin",
+        "heb": "בנימין",
+        "jpn": "ベンジャミン",
+        "rus": "бенджамен",
+        "pol": "benjamin",
+        "por": "benjamin",
+        "tha": "เบญจมิน"
+    },
+    "sex": "m"
 }

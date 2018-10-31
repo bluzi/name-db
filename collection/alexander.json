@@ -2,7 +2,20 @@
 	"name": "alexander",
 	"meaning": "Greek for \"Defending men\"",
 	"transaltions": {
-		"pol": "Aleksander",
-		"tha": "อาเล็กซานนเดอร์"
-	}
+		"mkd": "александар",
+		"pol": "aleksander",
+		"por": "alexandre",
+		"cmn": "亚历山大",
+		"deu": "alexander",
+		"rus": "алекcaндр",
+		"ukr": "олександр",
+		"aze": "i̇skəndər",
+		"fra": "alexandre",
+		"jpn": "アレクサンダー",
+		"ita": "alessandro",
+		"tha": "อเล็กซานเดอร์",
+		"heb": "אלכסנדר",
+		"deu": "alexander"
+	},
+	"sex": "m"
 }

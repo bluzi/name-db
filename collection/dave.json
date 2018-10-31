@@ -5,8 +5,13 @@
         "david"
     ],
     "translations": {
-        "afr": "Dawid",
-        "deu": "David",
-        "hye": "Դավիթ"
-    }
+        "afr": "dawid",
+        "deu": "david",
+        "hye": "դավիթ",
+        "mkd": "давид",
+        "pol": "dawid",
+        "heb": "דייב",
+        "rus": "дэйв"
+    },
+    "sex": "m"
 }

@@ -1,13 +1,20 @@
 {
     "name": "gabriel",
     "meaning": "Hebrew for \"God is my strength\"",
+    "aliases": [
+        "gabe"
+    ],
     "translations": {
-        "fra": "Gabriel",
-        "fin": "Kaapo",
-        "hye": "Գաբրիել",
-        "rus": "Gavril",
-        "spa": "Gabian",
-        "por": "Gabriel",
-        "deu": "Gabriel"
-    }
+        "fra": "gabriel",
+        "fin": "kaapo",
+        "hye": "գաբրիել",
+        "rus": "габриэль",
+        "spa": "gabian",
+        "por": "gabriel",
+        "deu": "gabriel",
+        "aze": "cəbrayıl",
+        "pol": "gabriel",
+        "heb": "גבריאל"
+    },
+    "sex": "m"
 }

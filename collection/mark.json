@@ -2,10 +2,17 @@
     "name": "mark",
     "meaning": "Derived from Latin Marcus: Mars (Roman god of war)",
     "translations": {
-        "fra": "Marc",
-        "rus": "Марк",
-        "spa": "Marcos",
-        "deu": "Mark",
-        "pol": "Marek"
-    }
+        "afr": "markus",
+        "fra": "marc",
+        "hye": "մարկ",
+        "rus": "марк",
+        "ita": "marco",
+        "spa": "marcos",
+        "deu": "mark",
+        "pol": "marek",
+        "tha": "มาร์ค",
+        "mkd": "марк",
+        "heb": "מארק"
+    },
+    "sex": "m"
 }

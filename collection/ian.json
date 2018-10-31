@@ -2,7 +2,10 @@
     "name": "ian",
     "meaning": "Scottish for \"God is gracious\"",
     "translations": {
-        "fra": "Yan",
-        "deu": "Jan"
-    }
+        "fra": "yan",
+        "deu": "jan",
+        "rus": "ян",
+        "heb": "איאן"
+    },
+    "sex": "m"
 }
