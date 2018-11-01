@@ -1,0 +1,13 @@
+{
+    "name": "luis", 
+    "meaning": "almighty, wise, very spiritual", 
+    "aliases": [
+      "lalo",
+      "lalocota",
+      "laloquera"
+    ],
+    "translations": {
+        "{lowercase ISO-639-3 language code}": "{translation}"
+    },
+    "sex": "m"
+}
