@@ -6,7 +6,11 @@
         "charlie"
     ],
     "translations": {
+        "jpn": "カーロス",
         "por": "carlos",
-        "rus": "карлос"
-    }
+        "deu": "Karl",
+        "rus": "карлос",
+        "heb": "קרלוס"
+    },
+    "sex": "m"
 }

@@ -5,5 +5,10 @@
       "ema",
       "ima"
     ],
-    "translations": {}
+    "translations": {
+      "rus": "эмма",
+      "heb": "אמה",
+      "fas": "اِما"
+    },
+    "sex": "f"
 }

@@ -3,12 +3,16 @@
     "meaning": "Greek for \"God is gracious\"",
     "aliases": [
         "vanya",
-        "ivanko"
+        "ivanko",
+        "yvan"
     ],
     "translations": {
         "rus": "иван",
         "ukr": "іван",
         "fas": "ایوان",
-        "spa": "iván"
-    }
+        "fra": "ivan",
+        "spa": "iván",
+        "heb": "איוון"
+    },
+    "sex": "m"
 }

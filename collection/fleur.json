@@ -1,0 +1,12 @@
+{
+  "name": "fleur",
+  "meaning": "It means 'flower' in French",
+  "aliases": [
+    "flore",
+    "flora"
+  ],
+  "translations": {
+    "fra": "fleur"
+  },
+  "sex": "f"
+}

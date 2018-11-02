@@ -6,5 +6,9 @@
         "bob",
         "bobby"
     ],
-    "translations": {}
+    "translations": {
+        "rus": "роберт",
+        "heb": "רוברט"
+    },
+    "sex": "m"
 }
