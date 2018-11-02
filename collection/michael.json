@@ -1,14 +1,18 @@
 {
   "name": "michael",
   "meaning": "Hebrew for \"Who is like God?\"",
+  "aliases": ["Michi"],
   "translations": {
     "fra": "michel",
     "ces": "michal",
+    "deu": "michael",
     "spa": "miguel",
+    "deu": "michael",
     "por": "miguel",
     "rus": "михаил",
     "pol": "michał",
-    "heb": "מיכאל"
+    "heb": "מיכאל",
+    "ita": "michele"
   },
   "sex": "m"
 }

@@ -5,7 +5,9 @@
         "kristian"
     ],
     "translations": {
-        "heb": "כריסטיאן"
+        "heb": "כריסטיאן",
+        "deu": "christian",
+        "eng": "christian"
     },
     "sex": "m"
 }
