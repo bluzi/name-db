@@ -1,11 +1,12 @@
 {
-    "name": "madeleine", 
-    "meaning": "", 
+    "name": "madeleine",
+    "meaning": "",
     "aliases": [
       "madeline",
-      ], 
+      "maddy"
+    ],
     "translations": {
-        "fra": "madeleine" 
+        "fra": "madeleine"
     },
     "sex": "f"
 }
