@@ -1,11 +1,11 @@
 {
-    "name": "severiano", // English name, lowercase, coresponding to the filename
-    "meaning": "Italian and Spanish form of the Roman cognomen Severianus, which was derived from Severus, meaning stern", // The meaning of the name, in English
+    "name": "severiano",
+    "meaning": "Italian and Spanish form of the Roman cognomen Severianus, which was derived from Severus, meaning stern", 
     "aliases": [
     "seve"
-    ], // An array of lowercase alias names, such as: richard -> dick, daniel -> dan, etc.
+    ], 
     "translations": {
       
     },
-    "sex": "m" // (Optional) Gender of the name. Use a single, lowercase letter: `m` for male, `f` for female or `u` for unisex (names that can be male or female).
+    "sex": "m" 
 }
