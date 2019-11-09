@@ -13,7 +13,7 @@ const db = mysql.createConnection(mysqlConfig);
 db.connect(err => {
   if (err) return console.error('Could not connect to database: ' + err.message);
 
-  console.log(`Connected to database on ${mysqlConfig.host}`);
+  process.env.NODE_ENV !== "test" && console.log(`Connected to database on ${mysqlConfig.host}`);
 });
 
 module.exports.findName = (name) => {
@@ -66,3 +66,13 @@ module.exports.generatePublicObject = (name) => {
         });
     });
 }
+
+module.exports.closeConnection = () => new Promise((resolve, reject) => {
+    db.end(err => {
+        if (err) {
+            reject(err);
+        } else {
+            resolve();
+        }
+    });
+});
