@@ -18,7 +18,8 @@
     "fs-extra": "^4.0.2",
     "jsonschema": "^1.2.0",
     "mocha": "^4.0.1",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "supertest": "^3.0.0"
   },
   "dependencies": {
     "body-parser": "~1.18.2",
