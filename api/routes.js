@@ -20,4 +20,10 @@ router.get('/search/:term', (req, res, next) => {
     .catch(err => res.status(404).send({ err: true, debug: err }));
 });
 
+router.get('/:name/:language', (req, res, next) => {
+  utils.getTranslation(req.params.name, req.params.language)
+    .then(results => res.status(200).send(results).end())
+    .catch(err => res.status(404).send({ err: true, debug: err }));
+});
+
 module.exports = router;
