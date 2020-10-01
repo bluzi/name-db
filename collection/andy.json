@@ -10,7 +10,8 @@
 		"hin": "एंडी",
 		"mkd": "андреј",
 		"por": "andré",
-		"deu": "anreas",
+		"deu": "andreas",
+		"ces": "ondřej",
 		"kan": "ಆಂಡಿ",
 		"pol": "andrzej",
 		"cmn": "安迪",
@@ -18,6 +19,8 @@
 		"rus": "андрей",
 		"ukr": "андрій",
 		"fas": "اَندی",
-		"heb": "אנדי"
-	}
+		"heb": "אנדי",
+		"zho": "安迪"
+	},
+	"sex": "m"
 }

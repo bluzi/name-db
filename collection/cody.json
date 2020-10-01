@@ -5,6 +5,10 @@
     "translations": {
         "deu": "cody",
         "aze": "kodi",
-        "rus": "коди"
-    }
+        "jpn": "コーディ",
+        "rus": "коди",
+        "heb": "קודי",
+        "tha": "โคดี้"
+    },
+    "sex": "m"
 }
