@@ -14,5 +14,3 @@ notifications:
       on_start: never
       on_cancel: never
       on_error: never
-travisBuddy:
-  regex: "(\d+ failing)"
