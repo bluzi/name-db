@@ -1,0 +1,15 @@
+{
+    "name": "shiva",
+    "meaning": "lord shiva",
+    "aliases": [
+        "mahesh"
+    ],
+    "translations": {
+        "hin": "शिव",
+        "ara": "شيفا",
+        "bul": "шива",
+        "kor" :"시바",
+        "guj" : "શિવા"
+    },
+	"sex": "u"
+}

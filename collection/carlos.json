@@ -2,10 +2,15 @@
     "name": "carlos",
     "meaning": "farmer, warrior",
     "aliases": [
-        "carl"
+        "carl",
+        "charlie"
     ],
     "translations": {
+        "jpn": "カーロス",
         "por": "carlos",
-        "rus": "карлос"
-    }
+        "deu": "karl",
+        "rus": "карлос",
+        "heb": "קרלוס"
+    },
+    "sex": "m"
 }

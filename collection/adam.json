@@ -35,13 +35,14 @@
         "spa": "adán",
         "swa": "adamu",
         "tam": "ஆதாம்",
-        "tha": "อาดัม",
         "tur": "adem",
         "ukr": "адам",
         "uzb": "odam",
         "vie": "áđàm",
         "yid": "adi",
         "deu": "adam",
-        "aze": "adəm"
-    }
+        "aze": "adəm",
+        "tha": "อดัม"
+    },
+    "sex": "m"
 }

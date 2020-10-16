@@ -4,13 +4,19 @@
     "aliases": [
         "chrissi",
         "tine",
-        "tinchen"
+        "tinchen",
+        "chris"
     ],
     "translations": {
         "fra": "christine",
         "deu": "christine",
+        "jpn": "クリスティーン",
         "por": "cristina",
+        "ita": "cristina",
         "rus": "кристина",
-        "spa": "christina"
-    }
+        "spa": "christina",
+        "heb": "כריסטין"
+    },
+    "sex": "f"
 }
+ 

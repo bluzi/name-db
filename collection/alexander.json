@@ -6,6 +6,7 @@
 		"pol": "aleksander",
 		"por": "alexandre",
 		"cmn": "亚历山大",
+		"deu": "alexander",
 		"rus": "алекcaндр",
 		"ukr": "олександр",
 		"aze": "i̇skəndər",
@@ -13,6 +14,8 @@
 		"jpn": "アレクサンダー",
 		"ita": "alessandro",
 		"tha": "อเล็กซานเดอร์",
-		"heb": "אלכסנדר"
-	}
+		"heb": "אלכסנדר",
+		"deu": "alexander"
+	},
+	"sex": "m"
 }

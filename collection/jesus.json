@@ -5,6 +5,9 @@
     "translations": {
         "cmn": "耶穌",
         "jpn": "イエス",
-        "spa": "jesús"
-    }
+        "spa": "jesús",
+        "fra": "jésus",
+        "heb": "ישו"
+    },
+    "sex": "m"
 }

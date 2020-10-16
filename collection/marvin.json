@@ -7,6 +7,8 @@
     "translations": {
         "deu": "marvin",
         "fas": "ماروین",
-        "rus": "марвин"
-    }
+        "rus": "марвин",
+        "heb": "מרווין"
+    },
+    "sex": "m"
 }
