@@ -1,0 +1,22 @@
+{
+    "name": "anthony",
+    "meaning": "Anthony or Antony is a masculine given name, derived from the Antonii, a gens (Roman family name) to which Mark Antony (Marcus Antonius) belonged. There was an ancient tradition that the Antonii gens were Heracleidae, being descendants of Anton, a son of Heracles.",
+    "aliases": [
+        "antony",
+        "tony"
+    ],
+    "translations": {
+        "lat": "antonius",
+        "bel": "aнтось",
+        "deu": "anton",
+        "ell": "αντώνιος",
+        "jpn": "アンソニー",
+        "ces": "antonín",
+        "pol": "antoni",
+        "ita": "antonio",
+        "rus": "антон",
+        "ukr": "eнтоні",
+        "heb": "אנטוני"
+    },
+    "sex" : "m"
+}

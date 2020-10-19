@@ -4,10 +4,14 @@
 	"translations": {
 		"ell": "μάριος",
 		"mkd": "марио",
+		"deu": "mario",
+		"ita": "mario",
 		"pol": "mariusz",
 		"por": "mário",
 		"ukr": "маріо",
 		"rus": "марио",
-		"fas": "ماریو"
-	}
+		"fas": "ماریو",
+		"heb": "מריו"
+	},
+	"sex": "m"
 }

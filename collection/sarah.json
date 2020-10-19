@@ -2,9 +2,12 @@
 	"name": "sarah",
 	"meaning": "Princess in Hebrew",
 	"aliases": [
-  
+		"Sahra", "Sara"
 	],
 	"translations": {
-		"heb": "שרה"
-	}
+		"rus": "сара",
+		"heb": "שרה",
+		"deu": "sarah"
+	},
+	"sex": "f"
 }
