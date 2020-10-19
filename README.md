@@ -3,6 +3,10 @@
 # name-db
 > `name-db` is a collection of names in all languages. Our goal is to collect as much data as we can, and to provide an open-source free API for name translations.
 
+<p align="center">
+  <img src="https://github.com/bluzi/name-db/blob/master/logo.png" width="250px">
+</p>
+
 ## Specs
 
 *name-db* currently stores only **first names**.
@@ -18,7 +22,8 @@ Each name is stored in a JSON file, located in `collection/`. The following is t
     "aliases": [], // An array of lowercase alias names, such as: richard -> dick, daniel -> dan, etc.
     "translations": {
         "{lowercase ISO-639-3 language code}": "{translation}" 
-    }
+    },
+    "sex": "" // (Optional) Gender of the name. Use a single, lowercase letter: `m` for male, `f` for female or `u` for unisex (names that can be male or female).
 }
 ``` 
 
@@ -37,7 +42,8 @@ Each name is stored in a JSON file, located in `collection/`. The following is t
     ], 
     "translations": {
         "heb": "ג'ונתן" 
-    }
+    },
+    "sex": "m"
 }
 ``` 
 
